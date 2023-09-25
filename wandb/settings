@@ -1,5 +1,5 @@
 [default]
-entity = yournickname
-project = yourprojectname
+entity = affordances
+project = Still_fast_baseline
 base_url = https://api.wandb.ai
 

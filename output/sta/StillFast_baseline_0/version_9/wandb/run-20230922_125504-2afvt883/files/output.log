@@ -1,0 +1,1445 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+ROIHEADSSTAv2
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+************** 98274
+************** 98274
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+  | Name  | Type      | Params
+------------------------------------
+0 | model | StillFast | 44.4 M
+------------------------------------
+44.2 M    Trainable params
+222 K     Non-trainable params
+44.4 M    Total params
+88.793    Total estimated model params size (MB)
+************** 98274
+************** 98274
+************** 47395
+************** 47395
+************** 19780
+************** 47395
+************** 47395
+************** 19780
+************** 47395
+************** 47395
+************** 19780
+************** 47395
+************** 47395
+************** 19780
+Sanity Checking: 0it [00:00, ?it/s]************** 47395
+************** 47395
+************** 47395
+************** 47395
+22850 IDX of the sample
+uid 2fd1837a-613b-48af-9ad2-0222f8fd6b69_0026989
+video_id 2fd1837a-613b-48af-9ad2-0222f8fd6b69
+frame_number 26989
+gt_boxes [[798.84 509.14 811.93 532.05]]
+gt_noun_labels [49]
+gt_verb_labels [0]
+gt_ttc_targets [1.7]
+frames list [26974 26975 26976 26977 26978 26979 26980 26981 26982 26983 26984 26985
+ 26986 26987 26988 26989] 2fd1837a-613b-48af-9ad2-0222f8fd6b69
+Opening /ssd/furnari/sta_lmdb/2fd1837a-613b-48af-9ad2-0222f8fd6b69
+/ssd/furnari/sta_lmdb
+2fd1837a-613b-48af-9ad2-0222f8fd6b69
+27034 IDX of the sample
+43939 IDX of the sample
+uid c939aae4-e7c8-453c-8671-40573db0c656_0061738
+video_id c939aae4-e7c8-453c-8671-40573db0c656
+frame_number 61738
+uid f5c456b2-b998-4f42-82bd-786833fb3891_0029441
+video_id f5c456b2-b998-4f42-82bd-786833fb3891
+frame_number 29441
+45895 IDX of the sample
+uid 4b5de875-cc82-494e-b768-8ac0ae3bb279_0039160
+video_id 4b5de875-cc82-494e-b768-8ac0ae3bb279
+frame_number 39160
+gt_boxes [[793.92 614.46 855.53 679.52]]
+gt_noun_labels [81]
+gt_verb_labels [62]
+gt_boxes [[ 732.37  568.15 1487.38  948.47]]
+gt_ttc_targets [1.73333333]
+gt_noun_labels [11]
+gt_verb_labels [4]
+frames list [61723 61724 61725 61726 61727 61728 61729 61730 61731 61732 61733 61734
+ 61735 61736 61737 61738] c939aae4-e7c8-453c-8671-40573db0c656
+gt_ttc_targets [0.1]
+gt_boxes [[ 298.42  249.24 1136.85  778.42]]
+frames list [29426 29427 29428 29429 29430 29431 29432 29433 29434 29435 29436 29437
+ 29438 29439 29440 29441] f5c456b2-b998-4f42-82bd-786833fb3891
+Opening /ssd/furnari/sta_lmdb/c939aae4-e7c8-453c-8671-40573db0c656
+/ssd/furnari/sta_lmdb
+c939aae4-e7c8-453c-8671-40573db0c656
+gt_noun_labels [49]
+gt_verb_labels [44]
+gt_ttc_targets [1.1]
+video_id 2fd1837a-613b-48af-9ad2-0222f8fd6b69 Frame 26974
+frames list [39145 39146 39147 39148 39149 39150 39151 39152 39153 39154 39155 39156
+ 39157 39158 39159 39160] 4b5de875-cc82-494e-b768-8ac0ae3bb279
+Opening /ssd/furnari/sta_lmdb/f5c456b2-b998-4f42-82bd-786833fb3891
+/ssd/furnari/sta_lmdb
+f5c456b2-b998-4f42-82bd-786833fb3891
+7410 IDX of the sample
+Opening /ssd/furnari/sta_lmdb/4b5de875-cc82-494e-b768-8ac0ae3bb279
+/ssd/furnari/sta_lmdb
+4b5de875-cc82-494e-b768-8ac0ae3bb279
+uid 1348c9f9-fc8b-40c7-b1ab-5b6281e5d390_0017353
+video_id 1348c9f9-fc8b-40c7-b1ab-5b6281e5d390
+frame_number 17353
+gt_boxes [[1019.39   38.95 1184.91  216.64]]
+gt_noun_labels [53]
+gt_verb_labels [62]
+gt_ttc_targets [0.1]
+frames list [17338 17339 17340 17341 17342 17343 17344 17345 17346 17347 17348 17349
+ 17350 17351 17352 17353] 1348c9f9-fc8b-40c7-b1ab-5b6281e5d390
+Opening /ssd/furnari/sta_lmdb/1348c9f9-fc8b-40c7-b1ab-5b6281e5d390
+/ssd/furnari/sta_lmdb
+1348c9f9-fc8b-40c7-b1ab-5b6281e5d390
+video_id 1348c9f9-fc8b-40c7-b1ab-5b6281e5d390 Frame 17338
+video_id c939aae4-e7c8-453c-8671-40573db0c656 Frame 61723
+34386 IDX of the sample
+28651 IDX of the sample
+34211 IDX of the sample
+uid 70d5b21a-832a-4f4d-af82-807731a08ece_0027853
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece
+frame_number 27853
+uid 3f6e7d56-6bf0-43d6-81cf-2bd11827455e_0016429
+video_id 3f6e7d56-6bf0-43d6-81cf-2bd11827455e
+frame_number 16429
+30699 IDX of the sample
+uid 5f2be256-1298-4876-a310-cc9c7e80774a_0026538
+video_id 5f2be256-1298-4876-a310-cc9c7e80774a
+frame_number 26538
+uid 51224e32-3d6c-4148-9eea-7b73da751f25_0004886
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25
+frame_number 4886
+gt_boxes [[1146.72  665.37 1466.36  850.45]]
+gt_noun_labels [16]
+gt_verb_labels [62]
+gt_ttc_targets [0.56666667]
+34187 IDX of the sample
+gt_boxes [[1084.63  539.   1294.75  811.65]]
+gt_noun_labels [47]
+gt_verb_labels [46]
+frames list [26523 26524 26525 26526 26527 26528 26529 26530 26531 26532 26533 26534
+ 26535 26536 26537 26538]gt_boxes [[-7.00000e-01  6.28140e+02  7.80650e+02  1.01237e+03]]
+gt_boxes [[ 631.4   229.5  1147.56  579.19]]
+gt_ttc_targets [1.66666667]
+ 5f2be256-1298-4876-a310-cc9c7e80774a
+Opening /ssd/furnari/sta_lmdb/5f2be256-1298-4876-a310-cc9c7e80774a
+/ssd/furnari/sta_lmdb
+5f2be256-1298-4876-a310-cc9c7e80774a
+gt_noun_labels [85]
+gt_noun_labels [56]
+gt_verb_labels [4]
+gt_verb_labels [62]
+frames list [27838 27839 27840 27841 27842 27843 27844 27845 27846 27847 27848 27849
+ 27850 27851 27852 27853] 70d5b21a-832a-4f4d-af82-807731a08ece
+gt_ttc_targets [1.7]
+gt_ttc_targets [0.6]
+video_id 5f2be256-1298-4876-a310-cc9c7e80774a Frame 26523
+frames list [16414 16415 16416 16417 16418 16419 16420 16421 16422 16423 16424 16425
+ 16426 16427 16428 16429] 3f6e7d56-6bf0-43d6-81cf-2bd11827455e
+frames list [4871 4872 4873 4874 4875 4876 4877 4878 4879 4880 4881 4882 4883 4884
+ 4885 4886] 51224e32-3d6c-4148-9eea-7b73da751f25
+Opening /ssd/furnari/sta_lmdb/3f6e7d56-6bf0-43d6-81cf-2bd11827455e
+/ssd/furnari/sta_lmdb
+3f6e7d56-6bf0-43d6-81cf-2bd11827455e
+Opening /ssd/furnari/sta_lmdb/70d5b21a-832a-4f4d-af82-807731a08ece
+/ssd/furnari/sta_lmdb
+70d5b21a-832a-4f4d-af82-807731a08ece
+Opening /ssd/furnari/sta_lmdb/51224e32-3d6c-4148-9eea-7b73da751f25
+/ssd/furnari/sta_lmdb
+51224e32-3d6c-4148-9eea-7b73da751f25
+uid 5f2be256-1298-4876-a310-cc9c7e80774a_0025781
+video_id 5f2be256-1298-4876-a310-cc9c7e80774a
+frame_number 25781
+gt_boxes [[1032.65  903.35 1104.45  987.38]]
+gt_noun_labels [4]
+gt_verb_labels [62]
+gt_ttc_targets [0.03333333]
+frames list [25766 25767 25768 25769 25770 25771 25772 25773 25774 25775 25776 25777
+ 25778 25779 25780 25781] 5f2be256-1298-4876-a310-cc9c7e80774a
+Opening /ssd/furnari/sta_lmdb/5f2be256-1298-4876-a310-cc9c7e80774a
+/ssd/furnari/sta_lmdb
+5f2be256-1298-4876-a310-cc9c7e80774a
+video_id 5f2be256-1298-4876-a310-cc9c7e80774a Frame 25766
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27838
+26306 IDX of the sample
+uid 11f51f72-c0bd-4631-aabb-6ecbe17d95c9_0007890
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9
+frame_number 7890
+gt_boxes [[637.8 609.1 891.8 643.1]]
+gt_noun_labels [16]
+gt_verb_labels [3]
+gt_ttc_targets [0.86666667]
+frames list [7875 7876 7877 7878 7879 7880 7881 7882 7883 7884 7885 7886 7887 7888
+ 7889 7890] 11f51f72-c0bd-4631-aabb-6ecbe17d95c9
+Opening /ssd/furnari/sta_lmdb/11f51f72-c0bd-4631-aabb-6ecbe17d95c9
+/ssd/furnari/sta_lmdb
+11f51f72-c0bd-4631-aabb-6ecbe17d95c9
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7875
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4871
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27839
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27840
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27841
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27842
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4872
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4873
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4874
+41170 IDX of the sample
+uid 763509f4-203d-4e4b-bb42-67eb9839874b_0000138
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b
+frame_number 138
+gt_boxes [[751.05 406.9  911.13 518.31]]
+5034 IDX of the sample
+gt_noun_labels [51]
+uid f3a9685f-0238-45a8-b7f5-30660e4d3acf_0007715
+video_id f3a9685f-0238-45a8-b7f5-30660e4d3acf
+frame_number 7715
+gt_verb_labels [22]
+gt_ttc_targets [1.16666667]
+gt_boxes [[1060.07  150.35 1217.86  273.33]
+ [ 978.86  454.99 1060.83  524.72]
+ [ 915.95  471.82 1037.41  620.6 ]]
+gt_noun_labels [81 81 81]
+frames list [123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138] 763509f4-203d-4e4b-bb42-67eb9839874b
+Opening /ssd/furnari/sta_lmdb/763509f4-203d-4e4b-bb42-67eb9839874b
+gt_verb_labels [6 6 6]
+/ssd/furnari/sta_lmdb
+763509f4-203d-4e4b-bb42-67eb9839874b
+gt_ttc_targets [1.66666667 1.66666667 1.66666667]
+frames list [7700 7701 7702 7703 7704 7705 7706 7707 7708 7709 7710 7711 7712 7713
+ 7714 7715] f3a9685f-0238-45a8-b7f5-30660e4d3acf
+Opening /ssd/furnari/sta_lmdb/f3a9685f-0238-45a8-b7f5-30660e4d3acf
+/ssd/furnari/sta_lmdb
+f3a9685f-0238-45a8-b7f5-30660e4d3acf
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27843
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27844
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27845
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27846
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7876
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27847
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7877
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27848
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7878
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27849
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27850
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27851
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27852
+video_id 70d5b21a-832a-4f4d-af82-807731a08ece Frame 27853
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BF13A90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFA82D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFA8D10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFB0E10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFB6790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFB6F10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFB6F90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DFD050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DFD0D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BF13790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DFD190>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DFD210>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DFD290>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DFD310>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DFD390>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DFD410>]
+70d5b21a-832a-4f4d-af82-807731a08ece 27853 video id and frame number
+16210 IDX of the sample
+uid 40359e3f-931e-4c0b-8d8b-a87d1773320f_0038269
+video_id 40359e3f-931e-4c0b-8d8b-a87d1773320f
+frame_number 38269
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4875
+gt_boxes [[1690.3   449.9  1919.01  858.8 ]]
+gt_noun_labels [9]
+gt_verb_labels [0]
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4876
+gt_ttc_targets [1.06666667]
+frames list [38254 38255 38256 38257 38258 38259 38260 38261 38262 38263 38264 38265
+ 38266 38267 38268 38269] 40359e3f-931e-4c0b-8d8b-a87d1773320f
+Opening /ssd/furnari/sta_lmdb/40359e3f-931e-4c0b-8d8b-a87d1773320f
+/ssd/furnari/sta_lmdb
+40359e3f-931e-4c0b-8d8b-a87d1773320f
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4877
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4878
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4879
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4880
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4881
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4882
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4883
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4884
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4885
+video_id 51224e32-3d6c-4148-9eea-7b73da751f25 Frame 4886
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 123
+video_id f3a9685f-0238-45a8-b7f5-30660e4d3acf Frame 7700
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BF13A90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFAA6D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFAC150>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFB8250>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE2BFB8B90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF8350>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF83D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF8450>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF84D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF8310>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF8590>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF8610>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF8690>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF8710>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF8790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84DF8810>]
+51224e32-3d6c-4148-9eea-7b73da751f25 4886 video id and frame number
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7879
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7880
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7881
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7882
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7883
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7884
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7885
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7886
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7887
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7888
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7889
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9 Frame 7890
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC97FFFB9D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC97FFBE190>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC97FFBECD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDB1A10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDB1FD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDB8F10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDB8F90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDC4050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDC40D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC97FFFBBD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDC4190>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDC4210>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDC4290>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDC4310>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDC4390>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEDC4410>]
+11f51f72-c0bd-4631-aabb-6ecbe17d95c9 7890 video id and frame number
+16271 IDX of the sample
+uid 40359e3f-931e-4c0b-8d8b-a87d1773320f_0042845
+video_id 40359e3f-931e-4c0b-8d8b-a87d1773320f
+frame_number 42845
+gt_boxes [[1594.97  684.87 1777.46  952.55]]
+gt_noun_labels [9]
+gt_verb_labels [62]
+gt_ttc_targets [0.06666667]
+frames list [42830 42831 42832 42833 42834 42835 42836 42837 42838 42839 42840 42841
+ 42842 42843 42844 42845] 40359e3f-931e-4c0b-8d8b-a87d1773320f
+Opening /ssd/furnari/sta_lmdb/40359e3f-931e-4c0b-8d8b-a87d1773320f
+/ssd/furnari/sta_lmdb
+40359e3f-931e-4c0b-8d8b-a87d1773320f
+27865 IDX of the sample
+31257 IDX of the sample
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 124
+uid 2978ddbc-cdc9-4bfa-9a7c-4bf056904010_0011279
+video_id 2978ddbc-cdc9-4bfa-9a7c-4bf056904010
+frame_number 11279
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 125
+uid 79001765-abc6-439b-a987-367dd4d1d5f6_0006448
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6
+frame_number 6448
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 126
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 127
+41949 IDX of the sample
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 128
+gt_boxes [[703.71 245.79 964.48 633.49]]
+gt_boxes [[525.71 501.84 662.19 647.13]]
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 129
+gt_noun_labels [81]
+gt_noun_labels [37]
+gt_verb_labels [8]
+7737 IDX of the sample
+gt_verb_labels [4]
+gt_ttc_targets [1.73333333]
+gt_ttc_targets [1.46666667]
+uid 796bc463-2962-4a43-8a34-5f27983e0950_0034484
+video_id 796bc463-2962-4a43-8a34-5f27983e0950
+frame_number 34484
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 130
+frames list [11264 11265 11266 11267 11268 11269 11270 11271 11272 11273 11274 11275
+ 11276 11277 11278 11279] 2978ddbc-cdc9-4bfa-9a7c-4bf056904010
+frames list [6433 6434 6435 6436 6437 6438 6439 6440 6441 6442 6443 6444 6445 6446
+ 6447 6448] 79001765-abc6-439b-a987-367dd4d1d5f6
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 131
+uid 79c62f24-488e-4a69-8220-3b20cb4bf72b_0135904
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b
+frame_number 135904
+Opening /ssd/furnari/sta_lmdb/2978ddbc-cdc9-4bfa-9a7c-4bf056904010
+/ssd/furnari/sta_lmdb
+2978ddbc-cdc9-4bfa-9a7c-4bf056904010
+Opening /ssd/furnari/sta_lmdb/79001765-abc6-439b-a987-367dd4d1d5f6
+/ssd/furnari/sta_lmdb
+79001765-abc6-439b-a987-367dd4d1d5f6
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 132
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 133
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 134
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 135
+gt_boxes [[ 657.45  731.17 1027.02 1388.59]]
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 136
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 137
+gt_noun_labels [86]
+gt_verb_labels [62]
+video_id 763509f4-203d-4e4b-bb42-67eb9839874b Frame 138
+gt_boxes [[591.56 468.33 702.26 811.77]]
+gt_noun_labels [66]
+gt_ttc_targets [1.1]
+27657 IDX of the sample
+gt_verb_labels [22]
+uid e4dc253e-e5be-4b1e-89c2-ab1a47c486b0_0047748
+video_id e4dc253e-e5be-4b1e-89c2-ab1a47c486b0
+frame_number 47748
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2C990>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2C850>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2C950>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CA50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2C910>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CBD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CC50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CCD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CD50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CB90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CE10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CE90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CF10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC2CF90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC3F050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FC9EEC3F0D0>]
+763509f4-203d-4e4b-bb42-67eb9839874b 138 video id and frame number
+gt_boxes [[ 301.48  157.04 1165.18 1048.89]]
+gt_ttc_targets [0.13333333]
+gt_noun_labels [40]
+frames list [34469 34470 34471 34472 34473 34474 34475 34476 34477 34478 34479 34480
+ 34481 34482 34483 34484] 796bc463-2962-4a43-8a34-5f27983e0950
+gt_verb_labels [42]
+gt_ttc_targets [0.7]
+frames list [47733 47734 47735 47736 47737 47738 47739 47740 47741 47742 47743 47744
+ 47745 47746 47747 47748] e4dc253e-e5be-4b1e-89c2-ab1a47c486b0
+Opening /ssd/furnari/sta_lmdb/e4dc253e-e5be-4b1e-89c2-ab1a47c486b0
+/ssd/furnari/sta_lmdb
+e4dc253e-e5be-4b1e-89c2-ab1a47c486b0
+Opening /ssd/furnari/sta_lmdb/796bc463-2962-4a43-8a34-5f27983e0950
+/ssd/furnari/sta_lmdb
+796bc463-2962-4a43-8a34-5f27983e0950
+frames list [135889 135890 135891 135892 135893 135894 135895 135896 135897 135898
+ 135899 135900 135901 135902 135903 135904] 79c62f24-488e-4a69-8220-3b20cb4bf72b
+Opening /ssd/furnari/sta_lmdb/79c62f24-488e-4a69-8220-3b20cb4bf72b
+/ssd/furnari/sta_lmdb
+79c62f24-488e-4a69-8220-3b20cb4bf72b
+37241 IDX of the sample
+uid 55510a84-858b-4857-bb9f-6a923b5f7882_0011087
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882
+frame_number 11087
+gt_boxes [[ 775.68  919.42 1107.19 1054.1 ]]
+gt_noun_labels [21]
+gt_verb_labels [62]
+gt_ttc_targets [1.73333333]
+frames list [11072 11073 11074 11075 11076 11077 11078 11079 11080 11081 11082 11083
+ 11084 11085 11086 11087] 55510a84-858b-4857-bb9f-6a923b5f7882
+Opening /ssd/furnari/sta_lmdb/55510a84-858b-4857-bb9f-6a923b5f7882
+/ssd/furnari/sta_lmdb
+55510a84-858b-4857-bb9f-6a923b5f7882
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6433
+video_id e4dc253e-e5be-4b1e-89c2-ab1a47c486b0 Frame 47733
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6434
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6435
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6436
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6437
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135889
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11072
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135890
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11073
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6438
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11074
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6439
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11075
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6440
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6441
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6442
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6443
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6444
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6445
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6446
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6447
+video_id 79001765-abc6-439b-a987-367dd4d1d5f6 Frame 6448
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3F13810>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3F9F810>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FA6AD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB0810>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB0DD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6CD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6D50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6DD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6E50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB65D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6F10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6F90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A847050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A8470D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A847150>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A8471D0>]
+79001765-abc6-439b-a987-367dd4d1d5f6 6448 video id and frame number
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11076
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11077
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11078
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11079
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11080
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11081
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11082
+video_id e4dc253e-e5be-4b1e-89c2-ab1a47c486b0 Frame 47734
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11083
+video_id e4dc253e-e5be-4b1e-89c2-ab1a47c486b0 Frame 47735
+video_id e4dc253e-e5be-4b1e-89c2-ab1a47c486b0 Frame 47736
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11084
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11085
+video_id e4dc253e-e5be-4b1e-89c2-ab1a47c486b0 Frame 47737
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11086
+video_id e4dc253e-e5be-4b1e-89c2-ab1a47c486b0 Frame 47738
+video_id 55510a84-858b-4857-bb9f-6a923b5f7882 Frame 11087
+video_id e4dc253e-e5be-4b1e-89c2-ab1a47c486b0 Frame 47739
+video_id e4dc253e-e5be-4b1e-89c2-ab1a47c486b0 Frame 47740
+e4dc253e-e5be-4b1e-89c2-ab1a47c486b0 47748 video id and frame number
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135891
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135892
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135893
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135894
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135895
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135896
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135897
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135898
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135899
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135900
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135901
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135902
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135903
+video_id 79c62f24-488e-4a69-8220-3b20cb4bf72b Frame 135904
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FF9050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FA9790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FAC310>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB7050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB7610>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA510>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA590>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA610>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA690>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3F13E50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA750>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA7D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA850>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA8D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA950>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA9D0>]
+79c62f24-488e-4a69-8220-3b20cb4bf72b 135904 video id and frame number
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+3386 IDX of the sample
+uid 7b5fafdb-136a-4722-84a4-cffb213a224a_0018451
+video_id 7b5fafdb-136a-4722-84a4-cffb213a224a
+frame_number 18451
+gt_boxes [[691.53 616.19 908.9  665.13]]
+gt_noun_labels [53]
+gt_verb_labels [66]
+gt_ttc_targets [0.56666667]
+frames list [18436 18437 18438 18439 18440 18441 18442 18443 18444 18445 18446 18447
+ 18448 18449 18450 18451] 7b5fafdb-136a-4722-84a4-cffb213a224a
+Opening /ssd/furnari/sta_lmdb/7b5fafdb-136a-4722-84a4-cffb213a224a
+/ssd/furnari/sta_lmdb
+7b5fafdb-136a-4722-84a4-cffb213a224a
+video_id 7b5fafdb-136a-4722-84a4-cffb213a224a Frame 18436
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+42223 IDX of the sample
+uid 99a60ee6-9f6a-40a6-aa73-db2138710552_0046442
+video_id 99a60ee6-9f6a-40a6-aa73-db2138710552
+frame_number 46442
+gt_boxes [[ -2.2   1.1 936.8 891.1]]
+gt_noun_labels [0]
+gt_verb_labels [37]
+gt_ttc_targets [0.13333333]
+frames list [46427 46428 46429 46430 46431 46432 46433 46434 46435 46436 46437 46438
+ 46439 46440 46441 46442] 99a60ee6-9f6a-40a6-aa73-db2138710552
+Opening /ssd/furnari/sta_lmdb/99a60ee6-9f6a-40a6-aa73-db2138710552
+/ssd/furnari/sta_lmdb
+99a60ee6-9f6a-40a6-aa73-db2138710552
+46187 IDX of the sample
+uid c50c5e7d-48d4-4a54-a64b-225abd3322b9_0010908
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9
+frame_number 10908
+gt_boxes [[ 6.9924e+02 -2.9000e-01  8.2530e+02  1.7387e+02]]
+gt_noun_labels [9]
+gt_verb_labels [11]
+gt_ttc_targets [1.4]
+frames list [10893 10894 10895 10896 10897 10898 10899 10900 10901 10902 10903 10904
+ 10905 10906 10907 10908] c50c5e7d-48d4-4a54-a64b-225abd3322b9
+Opening /ssd/furnari/sta_lmdb/c50c5e7d-48d4-4a54-a64b-225abd3322b9
+/ssd/furnari/sta_lmdb
+c50c5e7d-48d4-4a54-a64b-225abd3322b9
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10893
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10894
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10895
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10896
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10897
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10898
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10899
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10900
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10901
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10902
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10903
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10904
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10905
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10906
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10907
+video_id c50c5e7d-48d4-4a54-a64b-225abd3322b9 Frame 10908
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E410>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E450>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E550>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E6D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E7D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E650>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E950>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E9D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0E690>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0EA90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0EB10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0EB90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0EC10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0EC90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FAE84E0ED10>]
+c50c5e7d-48d4-4a54-a64b-225abd3322b9 10908 video id and frame number
+still img torch.Size([3, 1440, 1920])
+fast imgs torch.Size([3, 16, 320, 426])
+3243 IDX of the sample
+uid fa832aed-1016-467a-93ef-bacf176178f1_0028281
+video_id fa832aed-1016-467a-93ef-bacf176178f1
+frame_number 28281
+gt_boxes [[882.53 540.03 992.61 676.05]
+ [749.36 542.43 855.6  680.92]]
+gt_noun_labels [55 55]
+gt_verb_labels [66 66]
+gt_ttc_targets [0.7 0.7]
+frames list [28266 28267 28268 28269 28270 28271 28272 28273 28274 28275 28276 28277
+ 28278 28279 28280 28281] fa832aed-1016-467a-93ef-bacf176178f1
+Opening /ssd/furnari/sta_lmdb/fa832aed-1016-467a-93ef-bacf176178f1
+/ssd/furnari/sta_lmdb
+fa832aed-1016-467a-93ef-bacf176178f1
+42631 IDX of the sample
+uid 15217da0-41f5-4594-80f3-6cc93accac2c_0005907
+video_id 15217da0-41f5-4594-80f3-6cc93accac2c
+frame_number 5907
+gt_boxes [[ 702.63 1024.43 1082.11 1500.35]]
+gt_noun_labels [52]
+gt_verb_labels [62]
+gt_ttc_targets [2.1]
+frames list [5892 5893 5894 5895 5896 5897 5898 5899 5900 5901 5902 5903 5904 5905
+ 5906 5907] 15217da0-41f5-4594-80f3-6cc93accac2c
+Opening /ssd/furnari/sta_lmdb/15217da0-41f5-4594-80f3-6cc93accac2c
+/ssd/furnari/sta_lmdb
+15217da0-41f5-4594-80f3-6cc93accac2c
+still img torch.Size([3, 1440, 1920])
+fast imgs torch.Size([3, 16, 320, 426])
+42790 IDX of the sample
+uid bf6e4f01-7891-42fe-9b52-1b5033379b44_0004433
+video_id bf6e4f01-7891-42fe-9b52-1b5033379b44
+frame_number 4433
+gt_boxes [[1276.65  554.57 1375.26  715.93]]
+gt_noun_labels [5]
+gt_verb_labels [62]
+gt_ttc_targets [1.36666667]
+frames list [4418 4419 4420 4421 4422 4423 4424 4425 4426 4427 4428 4429 4430 4431
+ 4432 4433] bf6e4f01-7891-42fe-9b52-1b5033379b44
+Opening /ssd/furnari/sta_lmdb/bf6e4f01-7891-42fe-9b52-1b5033379b44
+/ssd/furnari/sta_lmdb
+bf6e4f01-7891-42fe-9b52-1b5033379b44
+31626 IDX of the sample
+uid 8f693e8a-5ea4-4b0f-93fd-787fe5f481df_0014990
+video_id 8f693e8a-5ea4-4b0f-93fd-787fe5f481df
+frame_number 14990
+gt_boxes [[3.04000e+00 9.60000e-01 2.56093e+03 1.92066e+03]]
+gt_noun_labels [85]
+gt_verb_labels [13]
+gt_ttc_targets [1.66666667]
+frames list [14975 14976 14977 14978 14979 14980 14981 14982 14983 14984 14985 14986
+ 14987 14988 14989 14990] 8f693e8a-5ea4-4b0f-93fd-787fe5f481df
+Opening /ssd/furnari/sta_lmdb/8f693e8a-5ea4-4b0f-93fd-787fe5f481df
+/ssd/furnari/sta_lmdb
+8f693e8a-5ea4-4b0f-93fd-787fe5f481df
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+44265 IDX of the sample
+uid 38473fe0-8311-44f0-a976-46a1eef5c6d6_0000737
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6
+frame_number 737
+gt_boxes [[320.35 231.16 773.26 452.8 ]]
+gt_noun_labels [83]
+gt_verb_labels [46]
+gt_ttc_targets [0.76666667]
+frames list [722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737] 38473fe0-8311-44f0-a976-46a1eef5c6d6
+Opening /ssd/furnari/sta_lmdb/38473fe0-8311-44f0-a976-46a1eef5c6d6
+/ssd/furnari/sta_lmdb
+38473fe0-8311-44f0-a976-46a1eef5c6d6
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 722
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 723
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 724
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 725
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 726
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 727
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 728
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 729
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 730
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 731
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 732
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 733
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 734
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 735
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 736
+video_id 38473fe0-8311-44f0-a976-46a1eef5c6d6 Frame 737
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB65D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6D50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6CD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6DD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6ED0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6F90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3F136D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3F13810>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A847050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB6D90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A847110>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A847190>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A847210>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A847AD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A847B50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A847BD0>]
+38473fe0-8311-44f0-a976-46a1eef5c6d6 737 video id and frame number
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+39481 IDX of the sample
+uid 8e23dc43-7025-4548-a2bd-0f7d85631602_0012556
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602
+frame_number 12556
+gt_boxes [[569.1  420.77 809.54 678.88]]
+gt_noun_labels [50]
+gt_verb_labels [62]
+gt_ttc_targets [0.2]
+frames list [12541 12542 12543 12544 12545 12546 12547 12548 12549 12550 12551 12552
+ 12553 12554 12555 12556] 8e23dc43-7025-4548-a2bd-0f7d85631602
+Opening /ssd/furnari/sta_lmdb/8e23dc43-7025-4548-a2bd-0f7d85631602
+/ssd/furnari/sta_lmdb
+8e23dc43-7025-4548-a2bd-0f7d85631602
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12541
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12542
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12543
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12544
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12545
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12546
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12547
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12548
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12549
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12550
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12551
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12552
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12553
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12554
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12555
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602 Frame 12556
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A849BD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A849C10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A8494D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A849CD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A849DD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A849E90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A849F10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A849F90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3F13D10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A849C90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A85B050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A85B0D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A85B150>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A85BA50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A85BAD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A85BB50>]
+8e23dc43-7025-4548-a2bd-0f7d85631602 12556 video id and frame number
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+37069 IDX of the sample
+uid d5ac2685-a012-46fe-8bc9-5c21c07edb0a_0038809
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a
+frame_number 38809
+gt_boxes [[448.25 619.62 639.87 874.25]]
+gt_noun_labels [5]
+gt_verb_labels [6]
+gt_ttc_targets [1.1]
+frames list [38794 38795 38796 38797 38798 38799 38800 38801 38802 38803 38804 38805
+ 38806 38807 38808 38809] d5ac2685-a012-46fe-8bc9-5c21c07edb0a
+Opening /ssd/furnari/sta_lmdb/d5ac2685-a012-46fe-8bc9-5c21c07edb0a
+/ssd/furnari/sta_lmdb
+d5ac2685-a012-46fe-8bc9-5c21c07edb0a
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38794
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38795
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38796
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38797
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38798
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38799
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38800
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38801
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38802
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38803
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38804
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38805
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38806
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38807
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38808
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a Frame 38809
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A843C90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A843310>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B610>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B490>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B510>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B410>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B690>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B710>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B3D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B850>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B8D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B950>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A860250>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A8602D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A860350>]
+d5ac2685-a012-46fe-8bc9-5c21c07edb0a 38809 video id and frame number
+still img torch.Size([3, 1440, 1920])
+fast imgs torch.Size([3, 16, 320, 426])
+31939 IDX of the sample
+uid 62ca20e4-b289-47fc-b175-4ce77178de82_0016254
+video_id 62ca20e4-b289-47fc-b175-4ce77178de82
+frame_number 16254
+gt_boxes [[1153.89  360.81 1188.85  399.1 ]
+ [1187.5   365.37 1223.57  402.18]
+ [1203.44  388.99 1240.64  428.59]]
+gt_noun_labels [2 2 2]
+gt_verb_labels [62 62 62]
+gt_ttc_targets [0.03333333 0.03333333 0.03333333]
+frames list [16239 16240 16241 16242 16243 16244 16245 16246 16247 16248 16249 16250
+ 16251 16252 16253 16254] 62ca20e4-b289-47fc-b175-4ce77178de82
+Opening /ssd/furnari/sta_lmdb/62ca20e4-b289-47fc-b175-4ce77178de82
+/ssd/furnari/sta_lmdb
+62ca20e4-b289-47fc-b175-4ce77178de82
+video_id 62ca20e4-b289-47fc-b175-4ce77178de82 Frame 16239
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+5781 IDX of the sample
+uid 9089e01e-c28e-4767-9478-ffd7daba9b79_0022031
+video_id 9089e01e-c28e-4767-9478-ffd7daba9b79
+frame_number 22031
+gt_boxes [[1261.65 1021.56 1439.65 1078.56]]
+gt_noun_labels [58]
+gt_verb_labels [15]
+gt_ttc_targets [1.63333333]
+frames list [22016 22017 22018 22019 22020 22021 22022 22023 22024 22025 22026 22027
+ 22028 22029 22030 22031] 9089e01e-c28e-4767-9478-ffd7daba9b79
+Opening /ssd/furnari/sta_lmdb/9089e01e-c28e-4767-9478-ffd7daba9b79
+/ssd/furnari/sta_lmdb
+9089e01e-c28e-4767-9478-ffd7daba9b79
+video_id 9089e01e-c28e-4767-9478-ffd7daba9b79 Frame 22016
+617 IDX of the sample
+uid 1e5bd816-e1dd-43d3-8709-42c83114dc7c_0129968
+video_id 1e5bd816-e1dd-43d3-8709-42c83114dc7c
+frame_number 129968
+gt_boxes [[ 942.21  187.66 1066.01  485.7 ]]
+gt_noun_labels [64]
+gt_verb_labels [62]
+gt_ttc_targets [1.2]
+frames list [129953 129954 129955 129956 129957 129958 129959 129960 129961 129962
+ 129963 129964 129965 129966 129967 129968] 1e5bd816-e1dd-43d3-8709-42c83114dc7c
+Opening /ssd/furnari/sta_lmdb/1e5bd816-e1dd-43d3-8709-42c83114dc7c
+/ssd/furnari/sta_lmdb
+1e5bd816-e1dd-43d3-8709-42c83114dc7c
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+12441 IDX of the sample
+uid 7f0320b1-b866-4c80-99bf-42125d99b99e_0032917
+video_id 7f0320b1-b866-4c80-99bf-42125d99b99e
+frame_number 32917
+gt_boxes [[465.41 493.56 697.82 659.71]]
+gt_noun_labels [16]
+gt_verb_labels [34]
+gt_ttc_targets [1.16666667]
+frames list [32902 32903 32904 32905 32906 32907 32908 32909 32910 32911 32912 32913
+ 32914 32915 32916 32917] 7f0320b1-b866-4c80-99bf-42125d99b99e
+Opening /ssd/furnari/sta_lmdb/7f0320b1-b866-4c80-99bf-42125d99b99e
+/ssd/furnari/sta_lmdb
+7f0320b1-b866-4c80-99bf-42125d99b99e
+video_id 7f0320b1-b866-4c80-99bf-42125d99b99e Frame 32902
+still img torch.Size([3, 1080, 1440])
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+fast imgs torch.Size([3, 16, 320, 426])
+13517 IDX of the sample
+35773 IDX of the sample
+uid ff8a5283-bf6e-40ef-b662-c91216d24c0d_0001422
+video_id ff8a5283-bf6e-40ef-b662-c91216d24c0d
+uid 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a_0003683
+frame_number 1422
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a
+frame_number 3683
+gt_boxes [[376.36 787.91 511.28 897.53]]
+gt_noun_labels [64]
+gt_boxes [[1210.72  595.53 1436.99  855.12]]
+gt_verb_labels [62]
+gt_ttc_targets [1.23333333]
+gt_noun_labels [37]
+gt_verb_labels [44]
+frames list [3668 3669 3670 3671 3672 3673 3674 3675 3676 3677 3678 3679 3680 3681
+ 3682 3683] 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a
+Opening /ssd/furnari/sta_lmdb/1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a
+/ssd/furnari/sta_lmdb
+1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a
+gt_ttc_targets [1.6]
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3668
+frames list [1407 1408 1409 1410 1411 1412 1413 1414 1415 1416 1417 1418 1419 1420
+ 1421 1422] ff8a5283-bf6e-40ef-b662-c91216d24c0d
+Opening /ssd/furnari/sta_lmdb/ff8a5283-bf6e-40ef-b662-c91216d24c0d
+/ssd/furnari/sta_lmdb
+ff8a5283-bf6e-40ef-b662-c91216d24c0d
+34781 IDX of the sample
+uid 1b9c07d3-0656-48ad-bae4-cca25f6664c9_0013080
+video_id 1b9c07d3-0656-48ad-bae4-cca25f6664c9
+frame_number 13080
+gt_boxes [[ 1.06554e+03 -9.90000e-01  1.91900e+03  1.43778e+03]]
+gt_noun_labels [20]
+gt_verb_labels [34]
+gt_ttc_targets [0.16666667]
+frames list [13065 13066 13067 13068 13069 13070 13071 13072 13073 13074 13075 13076
+ 13077 13078 13079 13080] 1b9c07d3-0656-48ad-bae4-cca25f6664c9
+Opening /ssd/furnari/sta_lmdb/1b9c07d3-0656-48ad-bae4-cca25f6664c9
+/ssd/furnari/sta_lmdb
+1b9c07d3-0656-48ad-bae4-cca25f6664c9
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3669=RGB size=426x320 at 0x7FE1E3FF10D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB7790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FB9210>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A843310>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A843C50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B410>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B490>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B510>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B590>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B3D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B650>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B6D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B750>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B7D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B850>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A84B8D0>]
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3670
+video_id 1b9c07d3-0656-48ad-bae4-cca25f6664c9 Frame 13065
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3671
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3672
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3673
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3674
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3675
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3676
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3677
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3678
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3679
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3680
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3681
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3682
+video_id 1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a Frame 3683
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FA9790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA690>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA710>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA5D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA650>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA550>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA810>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA890>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA910>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA750>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3FBA9D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3F13B50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE1E3F13CD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856310>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856390>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856410>]
+1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a 3683 video id and frame number
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+27309 IDX of the sample
+uid ffb7ecf6-f44e-499b-b315-a4aeabf3578c_0039492
+video_id ffb7ecf6-f44e-499b-b315-a4aeabf3578c
+frame_number 39492
+gt_boxes [[638.78 417.91 920.4  921.71]]
+gt_noun_labels [41]
+gt_verb_labels [62]
+gt_ttc_targets [0.1]
+frames list [39477 39478 39479 39480 39481 39482 39483 39484 39485 39486 39487 39488
+ 39489 39490 39491 39492] ffb7ecf6-f44e-499b-b315-a4aeabf3578c
+Opening /ssd/furnari/sta_lmdb/ffb7ecf6-f44e-499b-b315-a4aeabf3578c
+/ssd/furnari/sta_lmdb
+ffb7ecf6-f44e-499b-b315-a4aeabf3578c
+31357 IDX of the sample
+uid 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49_0029786
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49
+frame_number 29786
+gt_boxes [[718.8  182.81 786.15 252.57]]
+gt_noun_labels [81]
+gt_verb_labels [62]
+gt_ttc_targets [0.23333333]
+frames list [29771 29772 29773 29774 29775 29776 29777 29778 29779 29780 29781 29782
+ 29783 29784 29785 29786] 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49
+Opening /ssd/furnari/sta_lmdb/6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49
+/ssd/furnari/sta_lmdb
+6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29771
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29772
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29773
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29774
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29775
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29776
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29777
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29778
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29779
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29780
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29781
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29782
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29783
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29784
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29785
+video_id 6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 Frame 29786
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A8568D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856690>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856810>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856890>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856990>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856A90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856B10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856B90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856C10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856850>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856CD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856D50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856DD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856E50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856ED0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7FE25A856F50>]
+6bdc7ecb-0d9c-461f-8f32-ee0fbbe47c49 29786 video id and frame number
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+36793 IDX of the sample
+uid 968139e2-987e-4615-a2d4-fa2e683bae8a_0036014
+video_id 968139e2-987e-4615-a2d4-fa2e683bae8a
+frame_number 36014
+gt_boxes [[ 3.35720e+02 -1.19000e+00  1.21184e+03  9.95840e+02]]
+gt_noun_labels [34]
+gt_verb_labels [33]
+gt_ttc_targets [0.13333333]
+frames list [35999 36000 36001 36002 36003 36004 36005 36006 36007 36008 36009 36010
+ 36011 36012 36013 36014] 968139e2-987e-4615-a2d4-fa2e683bae8a
+Opening /ssd/furnari/sta_lmdb/968139e2-987e-4615-a2d4-fa2e683bae8a
+/ssd/furnari/sta_lmdb
+968139e2-987e-4615-a2d4-fa2e683bae8a
+video_id 968139e2-987e-4615-a2d4-fa2e683bae8a Frame 35999
+24856 IDX of the sample
+uid f0164f5d-c87e-4296-9e20-2166586c1ebd_0011832
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd
+frame_number 11832
+41132 IDX of the sample
+24252 IDX of the sample
+gt_boxes [[622.88 458.42 659.14 502.45]]
+uid 082db032-f3f2-408b-a116-84d62f673915_0071474
+video_id 082db032-f3f2-408b-a116-84d62f673915
+frame_number 71474
+gt_noun_labels [84]
+gt_verb_labels [3]
+gt_ttc_targets [0.6]
+uid 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833_0044836
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833
+frame_number 44836
+frames list [11817 11818 11819 11820 11821 11822 11823 11824 11825 11826 11827 11828
+ 11829 11830 11831 11832] f0164f5d-c87e-4296-9e20-2166586c1ebd
+31592 IDX of the sample
+Opening /ssd/furnari/sta_lmdb/f0164f5d-c87e-4296-9e20-2166586c1ebd
+/ssd/furnari/sta_lmdb
+f0164f5d-c87e-4296-9e20-2166586c1ebd
+gt_boxes [[-2.1800e+00 -5.7000e-01  5.7761e+02  2.8421e+02]]
+gt_noun_labels [125]
+gt_verb_labels [48]
+gt_ttc_targets [1.63333333]
+uid 8f693e8a-5ea4-4b0f-93fd-787fe5f481df_0011936
+video_id 8f693e8a-5ea4-4b0f-93fd-787fe5f481df
+frame_number 11936
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11817
+frames list [71459 71460 71461 71462 71463 71464 71465 71466 71467 71468 71469 71470
+ 71471 71472 71473 71474] 082db032-f3f2-408b-a116-84d62f673915
+Opening /ssd/furnari/sta_lmdb/082db032-f3f2-408b-a116-84d62f673915
+/ssd/furnari/sta_lmdb
+082db032-f3f2-408b-a116-84d62f673915
+gt_boxes [[   0.     -3.19 1703.36 1124.6 ]]
+gt_noun_labels [49]
+gt_verb_labels [45]
+gt_ttc_targets [1.16666667]
+gt_boxes [[190.12  -0.98 954.67 451.7 ]]
+gt_noun_labels [23]
+gt_verb_labels [62]
+frames list [44821 44822 44823 44824 44825 44826 44827 44828 44829 44830 44831 44832
+ 44833 44834 44835 44836] 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833
+gt_ttc_targets [1.63333333]
+Opening /ssd/furnari/sta_lmdb/5d4facb9-9473-4cf2-a7a6-bfc1e4e01833
+/ssd/furnari/sta_lmdb
+5d4facb9-9473-4cf2-a7a6-bfc1e4e01833
+frames list [11921 11922 11923 11924 11925 11926 11927 11928 11929 11930 11931 11932
+ 11933 11934 11935 11936] 8f693e8a-5ea4-4b0f-93fd-787fe5f481df
+Opening /ssd/furnari/sta_lmdb/8f693e8a-5ea4-4b0f-93fd-787fe5f481df
+/ssd/furnari/sta_lmdb
+8f693e8a-5ea4-4b0f-93fd-787fe5f481df
+3932 IDX of the sample
+uid b0bef990-651b-42f2-aa99-b11dcde5d678_0039551
+video_id b0bef990-651b-42f2-aa99-b11dcde5d678
+frame_number 39551
+gt_boxes [[  1.34   2.14 466.79 672.56]]
+gt_noun_labels [1]
+gt_verb_labels [33]
+gt_ttc_targets [0.56666667]
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71459
+frames list [39536 39537 39538 39539 39540 39541 39542 39543 39544 39545 39546 39547
+ 39548 39549 39550 39551]video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11818
+ b0bef990-651b-42f2-aa99-b11dcde5d678
+Opening /ssd/furnari/sta_lmdb/b0bef990-651b-42f2-aa99-b11dcde5d678
+/ssd/furnari/sta_lmdb
+b0bef990-651b-42f2-aa99-b11dcde5d678
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11819
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11820
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11821
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11822
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44821
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71460
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71461
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71462
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11823
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11824
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11825
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11826
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11827
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11828
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11829
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11830
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11831
+video_id f0164f5d-c87e-4296-9e20-2166586c1ebd Frame 11832
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4259B70950>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EA9250>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EA9C90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EB1D90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EB6710>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EB6E90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EB6F10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EB6F90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDF050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4259B708D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDF110>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDF190>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDF210>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDF290>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDF310>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDF390>]
+f0164f5d-c87e-4296-9e20-2166586c1ebd 11832 video id and frame number
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44822
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44823
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44824
+video_id b0bef990-651b-42f2-aa99-b11dcde5d678 Frame 39536
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71463
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71464
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71465
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71466
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71467
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71468
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71469
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71470
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71471
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44825
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71472
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44826
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44827
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44828
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44829
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44830
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44831
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44832
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44833
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44834
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44835
+video_id 5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 Frame 44836
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4259B704D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EAC650>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EAE0D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EB71D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EB7B10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB2D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB350>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB3D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB450>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB290>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB510>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB590>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB610>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB690>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB710>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CDB790>]
+5d4facb9-9473-4cf2-a7a6-bfc1e4e01833 44836 video id and frame number
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71473
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 71474
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43DB5BF0D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EABA50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EAF4D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBA5D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBAF10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE6D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE750>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE7D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE850>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE690>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE910>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE990>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBEA10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBEA90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBEB10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBEB90>]
+082db032-f3f2-408b-a116-84d62f673915 71474 video id and frame number
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+23784 IDX of the sample
+uid c00d3596-99db-4ea7-9a65-57ab4319d640_0021687
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640
+frame_number 21687
+gt_boxes [[ -2.49 520.58 549.06 955.61]]
+gt_noun_labels [41]
+gt_verb_labels [4]
+gt_ttc_targets [0.6]
+frames list [21672 21673 21674 21675 21676 21677 21678 21679 21680 21681 21682 21683
+ 21684 21685 21686 21687] c00d3596-99db-4ea7-9a65-57ab4319d640
+Opening /ssd/furnari/sta_lmdb/c00d3596-99db-4ea7-9a65-57ab4319d640
+/ssd/furnari/sta_lmdb
+c00d3596-99db-4ea7-9a65-57ab4319d640
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21672
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21673
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21674
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21675
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21676
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21677
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21678
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21679
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21680
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21681
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21682
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21683
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21684
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21685
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21686
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640 Frame 21687
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBAF10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBA790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE790>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE890>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE710>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE690>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE910>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE990>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBEA10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBE850>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBEAD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBEB50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F4337EBEBD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CED4D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CED550>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9CED5D0>]
+c00d3596-99db-4ea7-9a65-57ab4319d640 21687 video id and frame number
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+4676 IDX of the sample
+uid 0fe191ef-c28a-422c-aede-46f8aa8532a6_0093947
+video_id 0fe191ef-c28a-422c-aede-46f8aa8532a6
+frame_number 93947
+gt_boxes [[756.62 655.04 943.66 989.04]
+ [394.41 519.96 655.67 775.28]]
+gt_noun_labels [48 48]
+gt_verb_labels [55 55]
+gt_ttc_targets [0.53333333 0.53333333]
+frames list [93932 93933 93934 93935 93936 93937 93938 93939 93940 93941 93942 93943
+ 93944 93945 93946 93947] 0fe191ef-c28a-422c-aede-46f8aa8532a6
+Opening /ssd/furnari/sta_lmdb/0fe191ef-c28a-422c-aede-46f8aa8532a6
+/ssd/furnari/sta_lmdb
+0fe191ef-c28a-422c-aede-46f8aa8532a6
+video_id 0fe191ef-c28a-422c-aede-46f8aa8532a6 Frame 93932
+still img torch.Size([3, 1440, 1920])
+fast imgs torch.Size([3, 16, 320, 426])
+38112 IDX of the sample
+uid c6a42d6b-5fb0-4829-92e0-40ed1bef6f8a_0004506
+video_id c6a42d6b-5fb0-4829-92e0-40ed1bef6f8a
+frame_number 4506
+gt_boxes [[ 924.07  491.16 1072.27  632.99]]
+gt_noun_labels [16]
+gt_verb_labels [62]
+gt_ttc_targets [0.8]
+frames list [4491 4492 4493 4494 4495 4496 4497 4498 4499 4500 4501 4502 4503 4504
+ 4505 4506] c6a42d6b-5fb0-4829-92e0-40ed1bef6f8a
+Opening /ssd/furnari/sta_lmdb/c6a42d6b-5fb0-4829-92e0-40ed1bef6f8a
+/ssd/furnari/sta_lmdb
+c6a42d6b-5fb0-4829-92e0-40ed1bef6f8a
+13824 IDX of the sample
+uid ff8a5283-bf6e-40ef-b662-c91216d24c0d_0043807
+video_id ff8a5283-bf6e-40ef-b662-c91216d24c0d
+frame_number 43807
+gt_boxes [[623.99 147.89 927.78 368.58]]
+gt_noun_labels [21]
+gt_verb_labels [33]
+gt_ttc_targets [0.7]
+frames list [43792 43793 43794 43795 43796 43797 43798 43799 43800 43801 43802 43803
+ 43804 43805 43806 43807] ff8a5283-bf6e-40ef-b662-c91216d24c0d
+Opening /ssd/furnari/sta_lmdb/ff8a5283-bf6e-40ef-b662-c91216d24c0d
+/ssd/furnari/sta_lmdb
+ff8a5283-bf6e-40ef-b662-c91216d24c0d
+24272 IDX of the sample
+uid 082db032-f3f2-408b-a116-84d62f673915_0092016
+video_id 082db032-f3f2-408b-a116-84d62f673915
+frame_number 92016
+gt_boxes [[4.44720e+02 8.50000e-01 1.12809e+03 1.06288e+03]]
+gt_noun_labels [34]
+gt_verb_labels [0]
+gt_ttc_targets [0.13333333]
+frames list [92001 92002 92003 92004 92005 92006 92007 92008 92009 92010 92011 92012
+ 92013 92014 92015 92016] 082db032-f3f2-408b-a116-84d62f673915
+Opening /ssd/furnari/sta_lmdb/082db032-f3f2-408b-a116-84d62f673915
+/ssd/furnari/sta_lmdb
+082db032-f3f2-408b-a116-84d62f673915
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92001
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92002
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92003
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92004
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92005
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92006
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92007
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92008
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92009
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92010
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92011
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92012
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92013
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92014
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92015
+video_id 082db032-f3f2-408b-a116-84d62f673915 Frame 92016
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EB10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EA10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5E9D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5E990>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EC10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EA90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EBD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5ED50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EDD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EAD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EE90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EF10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B5EF90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B6F050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B6F0D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x320 at 0x7F43A9B6F150>]
+082db032-f3f2-408b-a116-84d62f673915 92016 video id and frame number
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+792 IDX of the sample
+uid 1e5bd816-e1dd-43d3-8709-42c83114dc7c_0174680
+video_id 1e5bd816-e1dd-43d3-8709-42c83114dc7c
+frame_number 174680
+gt_boxes [[669.31 514.32 996.52 739.45]]
+gt_noun_labels [107]
+gt_verb_labels [62]
+gt_ttc_targets [0.66666667]
+frames list [174665 174666 174667 174668 174669 174670 174671 174672 174673 174674
+ 174675 174676 174677 174678 174679 174680] 1e5bd816-e1dd-43d3-8709-42c83114dc7c
+Opening /ssd/furnari/sta_lmdb/1e5bd816-e1dd-43d3-8709-42c83114dc7c
+/ssd/furnari/sta_lmdb
+1e5bd816-e1dd-43d3-8709-42c83114dc7c
+20884 IDX of the sample
+uid c7715af7-8687-41b7-94ec-51e526450637_0003402
+video_id c7715af7-8687-41b7-94ec-51e526450637
+frame_number 3402
+gt_boxes [[845.2  815.36 901.61 891.07]]
+gt_noun_labels [112]
+gt_verb_labels [44]
+gt_ttc_targets [0.56666667]
+frames list [3387 3388 3389 3390 3391 3392 3393 3394 3395 3396 3397 3398 3399 3400
+ 3401 3402] c7715af7-8687-41b7-94ec-51e526450637
+Opening /ssd/furnari/sta_lmdb/c7715af7-8687-41b7-94ec-51e526450637
+/ssd/furnari/sta_lmdb
+c7715af7-8687-41b7-94ec-51e526450637
+still img torch.Size([3, 1080, 1440])
+fast imgs torch.Size([3, 16, 320, 426])
+43132 IDX of the sample
+uid a54b4d01-0962-4e75-be97-a9f50edb43a9_0011147
+video_id a54b4d01-0962-4e75-be97-a9f50edb43a9
+frame_number 11147
+gt_boxes [[516.53 783.65 673.4  963.16]]
+gt_noun_labels [47]
+gt_verb_labels [62]
+gt_ttc_targets [0.7]
+frames list [11132 11133 11134 11135 11136 11137 11138 11139 11140 11141 11142 11143
+ 11144 11145 11146 11147] a54b4d01-0962-4e75-be97-a9f50edb43a9
+Opening /ssd/furnari/sta_lmdb/a54b4d01-0962-4e75-be97-a9f50edb43a9
+/ssd/furnari/sta_lmdb
+a54b4d01-0962-4e75-be97-a9f50edb43a9
+44652 IDX of the sample
+uid b493e8e3-4e18-4480-8e63-c21e25bf99f7_0001647
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7
+frame_number 1647
+gt_boxes [[ 312.77  786.24  914.85 1079.57]]
+gt_noun_labels [21]
+gt_verb_labels [44]
+gt_ttc_targets [0.66666667]
+frames list [1632 1633 1634 1635 1636 1637 1638 1639 1640 1641 1642 1643 1644 1645
+ 1646 1647] b493e8e3-4e18-4480-8e63-c21e25bf99f7
+Opening /ssd/furnari/sta_lmdb/b493e8e3-4e18-4480-8e63-c21e25bf99f7
+/ssd/furnari/sta_lmdb
+b493e8e3-4e18-4480-8e63-c21e25bf99f7
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1632
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1633
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1634
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1635
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1636
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1637
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1638
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1639
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1640
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1641
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1642
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1643
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1644
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1645
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1646
+video_id b493e8e3-4e18-4480-8e63-c21e25bf99f7 Frame 1647
+fast imgs [<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5EDD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5EE90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5EC90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5ED10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5ED90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5EE50>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5EBD0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5EF90>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5E8D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B5EE10>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B72050>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B720D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B72150>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B721D0>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B72250>, <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=568x320 at 0x7F43A9B722D0>]
+b493e8e3-4e18-4480-8e63-c21e25bf99f7 1647 video id and frame number
+still img torch.Size([3, 1080, 1920])
+fast imgs torch.Size([3, 16, 320, 568])
+8908 IDX of the sample
+uid 3534864b-2289-4aaf-b3ed-10eeeee7acd2_0070274
+video_id 3534864b-2289-4aaf-b3ed-10eeeee7acd2
+frame_number 70274
+gt_boxes [[ 928.97  342.23 1220.92  605.22]]
+gt_noun_labels [34]
+gt_verb_labels [62]
+gt_ttc_targets [1.23333333]
+frames list [70259 70260 70261 70262 70263 70264 70265 70266 70267 70268 70269 70270
+ 70271 70272 70273 70274] 3534864b-2289-4aaf-b3ed-10eeeee7acd2
+Opening /ssd/furnari/sta_lmdb/3534864b-2289-4aaf-b3ed-10eeeee7acd2
+/ssd/furnari/sta_lmdb
+3534864b-2289-4aaf-b3ed-10eeeee7acd2
+video_id 3534864b-2289-4aaf-b3ed-10eeeee7acd2 Frame 70259
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 111, in advance
+    batch = next(data_fetcher)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 259, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 273, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+lmdb.Error: Caught Error in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 90, in __getitem__
+    still_img, fast_imgs = self._load_still_fast_frames(video_id, frame_number)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 68, in _load_still_fast_frames
+    video_id, frames_list
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 45, in _load_frames_lmdb
+    imgs = self._fast_hlmdb.get_batch(video_id, frames)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 24, in get_batch
+    with self._get_parent(video_id) as env:
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/sta_hlmdb.py", line 24, in _get_parent
+    return lmdb.open(str(self.path_to_root / parent), map_size=self.map_size, readonly=self.readonly, lock=self.lock)
+lmdb.Error: /ssd/furnari/sta_lmdb/f5c456b2-b998-4f42-82bd-786833fb3891: No such file or directory
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 111, in advance
+    batch = next(data_fetcher)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 259, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 273, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+PIL.UnidentifiedImageError: Caught UnidentifiedImageError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 90, in __getitem__
+    still_img, fast_imgs = self._load_still_fast_frames(video_id, frame_number)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 68, in _load_still_fast_frames
+    video_id, frames_list
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 45, in _load_frames_lmdb
+    imgs = self._fast_hlmdb.get_batch(video_id, frames)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 29, in get_batch
+    out.append(Image.open(io.BytesIO(data)))
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/PIL/Image.py", line 3298, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7fc97ff16350>
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 111, in advance
+    batch = next(data_fetcher)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 259, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 273, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+lmdb.Error: Caught Error in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 90, in __getitem__
+    still_img, fast_imgs = self._load_still_fast_frames(video_id, frame_number)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 68, in _load_still_fast_frames
+    video_id, frames_list
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 45, in _load_frames_lmdb
+    imgs = self._fast_hlmdb.get_batch(video_id, frames)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 24, in get_batch
+    with self._get_parent(video_id) as env:
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/sta_hlmdb.py", line 24, in _get_parent
+    return lmdb.open(str(self.path_to_root / parent), map_size=self.map_size, readonly=self.readonly, lock=self.lock)
+lmdb.Error: /ssd/furnari/sta_lmdb/2978ddbc-cdc9-4bfa-9a7c-4bf056904010: No such file or directory
+Traceback (most recent call last):
+  File "main.py", line 264, in <module>
+    main(cfg)
+  File "main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in _call_and_handle_interrupt
+    return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+    return function(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 111, in advance
+    batch = next(data_fetcher)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 259, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 273, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+PIL.UnidentifiedImageError: Caught UnidentifiedImageError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 90, in __getitem__
+    still_img, fast_imgs = self._load_still_fast_frames(video_id, frame_number)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 68, in _load_still_fast_frames
+    video_id, frames_list
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 45, in _load_frames_lmdb
+    imgs = self._fast_hlmdb.get_batch(video_id, frames)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 29, in get_batch
+    out.append(Image.open(io.BytesIO(data)))
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/PIL/Image.py", line 3298, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f43a9cdbe90>

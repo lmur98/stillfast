@@ -1,0 +1,96 @@
+2023-09-22 14:05:55,761 INFO    MainThread:24719 [internal.py:wandb_internal():93] W&B internal server running at pid: 24719, started at: 2023-09-22 14:05:55.761003
+2023-09-22 14:05:55,767 INFO    WriterThread:24719 [datastore.py:open_for_write():75] open: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/run-834ny7s1.wandb
+2023-09-22 14:05:55,774 DEBUG   SenderThread:24719 [sender.py:send():232] send: header
+2023-09-22 14:05:55,774 DEBUG   SenderThread:24719 [sender.py:send():232] send: run
+2023-09-22 14:05:56,133 INFO    SenderThread:24719 [dir_watcher.py:__init__():197] watching files in: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files
+2023-09-22 14:05:56,133 INFO    SenderThread:24719 [sender.py:_start_run_threads():814] run started: 834ny7s1 with start time 1695384354
+2023-09-22 14:05:56,133 DEBUG   SenderThread:24719 [sender.py:send():232] send: summary
+2023-09-22 14:05:56,133 INFO    SenderThread:24719 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-09-22 14:05:56,140 DEBUG   HandlerThread:24719 [handler.py:handle_request():141] handle_request: check_version
+2023-09-22 14:05:56,141 DEBUG   SenderThread:24719 [sender.py:send_request():246] send_request: check_version
+2023-09-22 14:05:56,290 DEBUG   HandlerThread:24719 [handler.py:handle_request():141] handle_request: run_start
+2023-09-22 14:05:56,301 DEBUG   HandlerThread:24719 [meta.py:__init__():35] meta init
+2023-09-22 14:05:56,301 DEBUG   HandlerThread:24719 [meta.py:__init__():49] meta init done
+2023-09-22 14:05:56,301 DEBUG   HandlerThread:24719 [meta.py:probe():209] probe
+2023-09-22 14:05:56,309 DEBUG   HandlerThread:24719 [meta.py:_setup_git():199] setup git
+2023-09-22 14:05:56,340 DEBUG   HandlerThread:24719 [meta.py:_setup_git():206] setup git done
+2023-09-22 14:05:56,341 DEBUG   HandlerThread:24719 [meta.py:_save_pip():53] save pip
+2023-09-22 14:05:56,342 DEBUG   HandlerThread:24719 [meta.py:_save_pip():67] save pip done
+2023-09-22 14:05:56,342 DEBUG   HandlerThread:24719 [meta.py:_save_conda():74] save conda
+2023-09-22 14:05:57,146 INFO    Thread-7  :24719 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/conda-environment.yaml
+2023-09-22 14:05:57,146 INFO    Thread-7  :24719 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/requirements.txt
+2023-09-22 14:05:57,147 INFO    Thread-7  :24719 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/wandb-summary.json
+2023-09-22 14:06:01,146 INFO    Thread-7  :24719 [dir_watcher.py:_on_file_modified():257] file/dir modified: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/conda-environment.yaml
+2023-09-22 14:06:01,187 DEBUG   HandlerThread:24719 [meta.py:_save_conda():84] save conda done
+2023-09-22 14:06:01,187 DEBUG   HandlerThread:24719 [meta.py:probe():247] probe done
+2023-09-22 14:06:01,326 DEBUG   SenderThread:24719 [sender.py:send():232] send: files
+2023-09-22 14:06:01,326 DEBUG   HandlerThread:24719 [handler.py:handle_request():141] handle_request: stop_status
+2023-09-22 14:06:01,327 INFO    SenderThread:24719 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-09-22 14:06:01,330 DEBUG   SenderThread:24719 [sender.py:send_request():246] send_request: stop_status
+2023-09-22 14:06:01,693 DEBUG   SenderThread:24719 [sender.py:send():232] send: telemetry
+2023-09-22 14:06:01,694 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,695 DEBUG   SenderThread:24719 [sender.py:send():232] send: telemetry
+2023-09-22 14:06:01,695 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,695 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,695 WARNING SenderThread:24719 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 14:06:01,695 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,695 WARNING SenderThread:24719 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 14:06:01,695 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,696 DEBUG   SenderThread:24719 [sender.py:send():232] send: telemetry
+2023-09-22 14:06:01,696 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,696 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,696 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,696 WARNING SenderThread:24719 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 14:06:01,696 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,696 WARNING SenderThread:24719 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 14:06:01,696 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,696 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,697 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,697 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,697 WARNING SenderThread:24719 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 14:06:01,697 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,697 WARNING SenderThread:24719 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 14:06:01,697 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,697 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,697 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,697 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,698 WARNING SenderThread:24719 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 14:06:01,698 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:01,698 WARNING SenderThread:24719 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 14:06:01,698 DEBUG   SenderThread:24719 [sender.py:send():232] send: metric
+2023-09-22 14:06:02,025 INFO    Thread-11 :24719 [upload_job.py:push():132] Uploaded file /tmp/tmpo67qr6cdwandb/22nukr0t-wandb-metadata.json
+2023-09-22 14:06:02,146 INFO    Thread-7  :24719 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/wandb-metadata.json
+2023-09-22 14:06:02,147 INFO    Thread-7  :24719 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/output.log
+2023-09-22 14:06:04,148 INFO    Thread-7  :24719 [dir_watcher.py:_on_file_modified():257] file/dir modified: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/output.log
+2023-09-22 14:06:10,153 INFO    Thread-7  :24719 [dir_watcher.py:_on_file_modified():257] file/dir modified: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/output.log
+2023-09-22 14:06:26,972 DEBUG   SenderThread:24719 [sender.py:send():232] send: stats
+2023-09-22 14:06:27,166 INFO    Thread-7  :24719 [dir_watcher.py:_on_file_modified():257] file/dir modified: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/config.yaml
+2023-09-22 14:07:01,049 DEBUG   SenderThread:24719 [sender.py:send():232] send: stats
+2023-09-22 14:07:35,238 DEBUG   SenderThread:24719 [sender.py:send():232] send: stats
+2023-09-22 14:08:09,433 DEBUG   SenderThread:24719 [sender.py:send():232] send: stats
+2023-09-22 14:08:43,581 DEBUG   SenderThread:24719 [sender.py:send():232] send: stats
+2023-09-22 14:09:17,617 DEBUG   SenderThread:24719 [sender.py:send():232] send: stats
+2023-09-22 14:09:51,803 DEBUG   SenderThread:24719 [sender.py:send():232] send: stats
+2023-09-22 14:10:25,963 DEBUG   SenderThread:24719 [sender.py:send():232] send: stats
+2023-09-22 14:10:38,452 WARNING MainThread:24719 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-09-22 14:10:42,249 WARNING MainThread:24719 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-09-22 14:10:42,249 ERROR   MainThread:24719 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-09-22 14:10:42,968 INFO    WriterThread:24719 [datastore.py:close():279] close: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/run-834ny7s1.wandb
+2023-09-22 14:10:42,969 INFO    SenderThread:24719 [sender.py:finish():1110] shutting down sender
+2023-09-22 14:10:42,969 INFO    SenderThread:24719 [dir_watcher.py:finish():312] shutting down directory watcher
+2023-09-22 14:10:42,980 INFO    HandlerThread:24719 [handler.py:finish():806] shutting down handler
+2023-09-22 14:10:43,223 INFO    SenderThread:24719 [dir_watcher.py:finish():342] scan: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files
+2023-09-22 14:10:43,224 INFO    SenderThread:24719 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/wandb-metadata.json wandb-metadata.json
+2023-09-22 14:10:43,224 INFO    SenderThread:24719 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/config.yaml config.yaml
+2023-09-22 14:10:43,225 INFO    SenderThread:24719 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/output.log output.log
+2023-09-22 14:10:43,226 INFO    SenderThread:24719 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/conda-environment.yaml conda-environment.yaml
+2023-09-22 14:10:43,259 INFO    SenderThread:24719 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/requirements.txt requirements.txt
+2023-09-22 14:10:43,266 INFO    SenderThread:24719 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/wandb-summary.json wandb-summary.json
+2023-09-22 14:10:43,272 INFO    SenderThread:24719 [file_pusher.py:finish():145] shutting down file pusher
+2023-09-22 14:10:43,272 INFO    SenderThread:24719 [file_pusher.py:join():150] waiting for file pusher
+2023-09-22 14:10:43,948 INFO    Thread-12 :24719 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/config.yaml
+2023-09-22 14:10:43,948 INFO    Thread-14 :24719 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/conda-environment.yaml
+2023-09-22 14:10:43,964 INFO    Thread-13 :24719 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/output.log
+2023-09-22 14:10:43,994 INFO    Thread-15 :24719 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/requirements.txt
+2023-09-22 14:10:44,030 INFO    Thread-16 :24719 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_17/wandb/run-20230922_140554-834ny7s1/files/wandb-summary.json
+2023-09-22 14:10:44,711 INFO    MainThread:24719 [internal.py:handle_exit():80] Internal process exited

@@ -71,11 +71,11 @@ def construct_loader(cfg, split):
             if weighted_sampler:
                 sampler = DistributedWeightedSampler(dataset)
             else:
-                sampler = DistributedSampler(dataset)
+                sampler = DistributedSampler(dataset) #It is executing
         else:
             if weighted_sampler:
                 sampler = WeightedRandomSampler(dataset.weights, len(dataset))
-
+    
     loader = torch.utils.data.DataLoader(
         dataset,
         batch_size=1 if batch_sampler else batch_size,

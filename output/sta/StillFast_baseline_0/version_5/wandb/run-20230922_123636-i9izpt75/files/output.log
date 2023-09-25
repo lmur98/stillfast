@@ -1,0 +1,187 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+************** que ostias es esto 98276
+the first element is
+{'uid': '26202090-684d-4be8-b3cc-de04da827e91_0000984', 'main_uid': '3b867f4f-958b-4735-aecd-5984998658a7', 'video_uid': '26202090-684d-4be8-b3cc-de04da827e91', 'frame': 984, 'clip_id': 121, 'clip_uid': '4f68183f-610a-44de-b102-e7f300b49dcd', 'clip_frame': 984, 'action_start_sec': 30.654361933333334, 'action_end_sec': 38.654361933333334, 'action_start_frame': 919, 'action_end_frame': 1159, 'action_clip_start_sec': 30.654361933333334, 'action_clip_end_sec': 38.654361933333334, 'action_clip_start_frame': 919, 'action_clip_end_frame': 1159, 'interval_start_frame': 0, 'interval_end_frame': 8999, 'interval_start_sec': 0.0, 'interval_end_sec': 300.0, 'clip_parent_start_sec': 0.0, 'clip_parent_end_sec': 308.0, 'clip_parent_start_frame': 0, 'clip_parent_end_frame': 9239, 'objects': [{'box': [235.32, 43.3, 581.69, 440.18], 'verb_category_id': 34, 'noun_category_id': 1, 'time_to_contact': 1.7666666666666666}]}
+videos ->
+annotations ->
+************** que ostias es esto 98276
+the first element is
+{'uid': '26202090-684d-4be8-b3cc-de04da827e91_0000984', 'main_uid': '3b867f4f-958b-4735-aecd-5984998658a7', 'video_uid': '26202090-684d-4be8-b3cc-de04da827e91', 'frame': 984, 'clip_id': 121, 'clip_uid': '4f68183f-610a-44de-b102-e7f300b49dcd', 'clip_frame': 984, 'action_start_sec': 30.654361933333334, 'action_end_sec': 38.654361933333334, 'action_start_frame': 919, 'action_end_frame': 1159, 'action_clip_start_sec': 30.654361933333334, 'action_clip_end_sec': 38.654361933333334, 'action_clip_start_frame': 919, 'action_clip_end_frame': 1159, 'interval_start_frame': 0, 'interval_end_frame': 8999, 'interval_start_sec': 0.0, 'interval_end_sec': 300.0, 'clip_parent_start_sec': 0.0, 'clip_parent_end_sec': 308.0, 'clip_parent_start_frame': 0, 'clip_parent_end_frame': 9239, 'objects': [{'box': [235.32, 43.3, 581.69, 440.18], 'verb_category_id': 34, 'noun_category_id': 1, 'time_to_contact': 1.7666666666666666}]}
+videos ->
+annotations ->
+************** que ostias es esto 98276
+the first element is
+{'uid': '26202090-684d-4be8-b3cc-de04da827e91_0000984', 'main_uid': '3b867f4f-958b-4735-aecd-5984998658a7', 'video_uid': '26202090-684d-4be8-b3cc-de04da827e91', 'frame': 984, 'clip_id': 121, 'clip_uid': '4f68183f-610a-44de-b102-e7f300b49dcd', 'clip_frame': 984, 'action_start_sec': 30.654361933333334, 'action_end_sec': 38.654361933333334, 'action_start_frame': 919, 'action_end_frame': 1159, 'action_clip_start_sec': 30.654361933333334, 'action_clip_end_sec': 38.654361933333334, 'action_clip_start_frame': 919, 'action_clip_end_frame': 1159, 'interval_start_frame': 0, 'interval_end_frame': 8999, 'interval_start_sec': 0.0, 'interval_end_sec': 300.0, 'clip_parent_start_sec': 0.0, 'clip_parent_end_sec': 308.0, 'clip_parent_start_frame': 0, 'clip_parent_end_frame': 9239, 'objects': [{'box': [235.32, 43.3, 581.69, 440.18], 'verb_category_id': 34, 'noun_category_id': 1, 'time_to_contact': 1.7666666666666666}]}
+videos ->
+annotations ->
+************** que ostias es esto 98276
+the first element is
+{'uid': '26202090-684d-4be8-b3cc-de04da827e91_0000984', 'main_uid': '3b867f4f-958b-4735-aecd-5984998658a7', 'video_uid': '26202090-684d-4be8-b3cc-de04da827e91', 'frame': 984, 'clip_id': 121, 'clip_uid': '4f68183f-610a-44de-b102-e7f300b49dcd', 'clip_frame': 984, 'action_start_sec': 30.654361933333334, 'action_end_sec': 38.654361933333334, 'action_start_frame': 919, 'action_end_frame': 1159, 'action_clip_start_sec': 30.654361933333334, 'action_clip_end_sec': 38.654361933333334, 'action_clip_start_frame': 919, 'action_clip_end_frame': 1159, 'interval_start_frame': 0, 'interval_end_frame': 8999, 'interval_start_sec': 0.0, 'interval_end_sec': 300.0, 'clip_parent_start_sec': 0.0, 'clip_parent_end_sec': 308.0, 'clip_parent_start_frame': 0, 'clip_parent_end_frame': 9239, 'objects': [{'box': [235.32, 43.3, 581.69, 440.18], 'verb_category_id': 34, 'noun_category_id': 1, 'time_to_contact': 1.7666666666666666}]}
+videos ->
+annotations ->
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/strategies/ddp.py:420: UserWarning: Error handling mechanism for deadlock detection is uninitialized. Skipping check.
+  rank_zero_warn("Error handling mechanism for deadlock detection is uninitialized. Skipping check.")
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+    self._call_setup_hook()  # allow user to setup lightning_module in accelerator environment
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1492, in _call_setup_hook
+    self._call_lightning_module_hook("setup", stage=fn)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/tasks/base_task.py", line 33, in setup
+    self.train_loader = loader.construct_loader(self.cfg, "train")
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/loader.py", line 53, in construct_loader
+    dataset = build_dataset(dataset_name, cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/build.py", line 24, in build_dataset
+    return DATASET_REGISTRY.get(dataset_name)(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 40, in __init__
+    super(Ego4dShortTermAnticipationStillVideo, self).__init__(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 32, in __init__
+    self._assign_groups_based_on_resolutions()
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 103, in _assign_groups_based_on_resolutions
+    self.groups = [clmap[a['video_id']] for a in self._annotations['annotations']]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 103, in <listcomp>
+    self.groups = [clmap[a['video_id']] for a in self._annotations['annotations']]
+KeyError: 'video_id'
+Traceback (most recent call last):
+  File "main.py", line 264, in <module>
+    main(cfg)
+  File "main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in _call_and_handle_interrupt
+    return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+    return function(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+    self._call_setup_hook()  # allow user to setup lightning_module in accelerator environment
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1492, in _call_setup_hook
+    self._call_lightning_module_hook("setup", stage=fn)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/tasks/base_task.py", line 33, in setup
+    self.train_loader = loader.construct_loader(self.cfg, "train")
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/loader.py", line 53, in construct_loader
+    dataset = build_dataset(dataset_name, cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/build.py", line 24, in build_dataset
+    return DATASET_REGISTRY.get(dataset_name)(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 40, in __init__
+    super(Ego4dShortTermAnticipationStillVideo, self).__init__(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 32, in __init__
+    self._assign_groups_based_on_resolutions()
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 103, in _assign_groups_based_on_resolutions
+    self.groups = [clmap[a['video_id']] for a in self._annotations['annotations']]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 103, in <listcomp>
+    self.groups = [clmap[a['video_id']] for a in self._annotations['annotations']]
+KeyError: 'video_id'
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+    self._call_setup_hook()  # allow user to setup lightning_module in accelerator environment
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1492, in _call_setup_hook
+    self._call_lightning_module_hook("setup", stage=fn)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/tasks/base_task.py", line 33, in setup
+    self.train_loader = loader.construct_loader(self.cfg, "train")
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/loader.py", line 53, in construct_loader
+    dataset = build_dataset(dataset_name, cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/build.py", line 24, in build_dataset
+    return DATASET_REGISTRY.get(dataset_name)(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 40, in __init__
+    super(Ego4dShortTermAnticipationStillVideo, self).__init__(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 32, in __init__
+    self._assign_groups_based_on_resolutions()
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 103, in _assign_groups_based_on_resolutions
+    self.groups = [clmap[a['video_id']] for a in self._annotations['annotations']]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 103, in <listcomp>
+    self.groups = [clmap[a['video_id']] for a in self._annotations['annotations']]
+KeyError: 'video_id'
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+    self._call_setup_hook()  # allow user to setup lightning_module in accelerator environment
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1492, in _call_setup_hook
+    self._call_lightning_module_hook("setup", stage=fn)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/tasks/base_task.py", line 33, in setup
+    self.train_loader = loader.construct_loader(self.cfg, "train")
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/loader.py", line 53, in construct_loader
+    dataset = build_dataset(dataset_name, cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/build.py", line 24, in build_dataset
+    return DATASET_REGISTRY.get(dataset_name)(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 40, in __init__
+    super(Ego4dShortTermAnticipationStillVideo, self).__init__(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 32, in __init__
+    self._assign_groups_based_on_resolutions()
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 103, in _assign_groups_based_on_resolutions
+    self.groups = [clmap[a['video_id']] for a in self._annotations['annotations']]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 103, in <listcomp>
+    self.groups = [clmap[a['video_id']] for a in self._annotations['annotations']]
+KeyError: 'video_id'

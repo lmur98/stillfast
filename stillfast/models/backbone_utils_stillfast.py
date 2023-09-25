@@ -164,6 +164,7 @@ class NonLocalFusionBlock(nn.Module):
         
         # residual connection
         return out
+
 class ConvolutionalFusionBlock(nn.Module):
     @configurable
     def __init__(
@@ -368,16 +369,17 @@ class StillFastBackbone(nn.Module):
 
     def forward(self, x):
         h_still, h_fast = x
-        
+        print("h_still", h_still.shape)
+        print("h_fast", h_fast.shape)
         # Basic Stem
         h_still = self.still_backbone.conv1(h_still)
         h_still = self.still_backbone.bn1(h_still)
         h_still = self.still_backbone.relu(h_still)
         h_still = self.still_backbone.maxpool(h_still)
-        
+        print("h_still processed", h_still.shape)
         # Basic Stem
         h_fast = self.fast_backbone.blocks[0](h_fast)
-        
+        print("h_fast processed", h_fast.shape)
         still_features = OrderedDict()
         fast_features = OrderedDict()
 
@@ -476,8 +478,10 @@ class StillBackbone(nn.Module):
         return missing_keys, unmatched_keys #return missing and unmatched keys
 
     def forward(self, x):
-        h_still, h_fast = x
-        
+        h_still, h_fast = x 
+        #h_still [b, 3, 800, 1088]
+        #h_fast [4, 3, 16, 256, 352]
+
         # Basic Stem
         h_still = self.still_backbone.conv1(h_still)
         h_still = self.still_backbone.bn1(h_still)

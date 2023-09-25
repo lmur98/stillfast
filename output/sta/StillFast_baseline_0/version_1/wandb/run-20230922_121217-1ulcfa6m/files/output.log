@@ -1,0 +1,163 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/strategies/ddp.py:420: UserWarning: Error handling mechanism for deadlock detection is uninitialized. Skipping check.
+  rank_zero_warn("Error handling mechanism for deadlock detection is uninitialized. Skipping check.")
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+    self._call_setup_hook()  # allow user to setup lightning_module in accelerator environment
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1492, in _call_setup_hook
+    self._call_lightning_module_hook("setup", stage=fn)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/tasks/base_task.py", line 33, in setup
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    self.train_loader = loader.construct_loader(self.cfg, "train")
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/loader.py", line 53, in construct_loader
+    dataset = build_dataset(dataset_name, cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/build.py", line 24, in build_dataset
+    return DATASET_REGISTRY.get(dataset_name)(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 40, in __init__
+    super(Ego4dShortTermAnticipationStillVideo, self).__init__(cfg, split)
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 28, in __init__
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    self._load_data(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 89, in _load_data
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._annotations = self._load_lists(cfg.EGO4D_STA.TRAIN_LISTS)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 74, in _load_lists
+    with open(os.path.join(self.cfg.EGO4D_STA.ANNOTATION_DIR,l)) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/the/EGO4D/v2/annotations/fho_sta_train.json'
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    self._call_setup_hook()  # allow user to setup lightning_module in accelerator environment
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1492, in _call_setup_hook
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+Traceback (most recent call last):
+  File "main.py", line 264, in <module>
+    main(cfg)
+  File "main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in _call_and_handle_interrupt
+    return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+    return function(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+    self._call_setup_hook()  # allow user to setup lightning_module in accelerator environment
+    self._call_lightning_module_hook("setup", stage=fn)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1492, in _call_setup_hook
+    self._call_lightning_module_hook("setup", stage=fn)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/tasks/base_task.py", line 33, in setup
+    self.train_loader = loader.construct_loader(self.cfg, "train")
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/loader.py", line 53, in construct_loader
+    dataset = build_dataset(dataset_name, cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/build.py", line 24, in build_dataset
+    return DATASET_REGISTRY.get(dataset_name)(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 40, in __init__
+    super(Ego4dShortTermAnticipationStillVideo, self).__init__(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 28, in __init__
+    self._load_data(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 89, in _load_data
+    self._annotations = self._load_lists(cfg.EGO4D_STA.TRAIN_LISTS)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 74, in _load_lists
+    with open(os.path.join(self.cfg.EGO4D_STA.ANNOTATION_DIR,l)) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/the/EGO4D/v2/annotations/fho_sta_train.json'
+    self._call_setup_hook()  # allow user to setup lightning_module in accelerator environment
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1492, in _call_setup_hook
+    output = fn(*args, **kwargs)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/tasks/base_task.py", line 33, in setup
+    self.train_loader = loader.construct_loader(self.cfg, "train")
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/loader.py", line 53, in construct_loader
+    dataset = build_dataset(dataset_name, cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/build.py", line 24, in build_dataset
+    return DATASET_REGISTRY.get(dataset_name)(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 40, in __init__
+    self._call_lightning_module_hook("setup", stage=fn)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    super(Ego4dShortTermAnticipationStillVideo, self).__init__(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 28, in __init__
+    self._load_data(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 89, in _load_data
+    self._annotations = self._load_lists(cfg.EGO4D_STA.TRAIN_LISTS)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 74, in _load_lists
+    with open(os.path.join(self.cfg.EGO4D_STA.ANNOTATION_DIR,l)) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/the/EGO4D/v2/annotations/fho_sta_train.json'
+    output = fn(*args, **kwargs)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/tasks/base_task.py", line 33, in setup
+    self.train_loader = loader.construct_loader(self.cfg, "train")
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/loader.py", line 53, in construct_loader
+    dataset = build_dataset(dataset_name, cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/build.py", line 24, in build_dataset
+    return DATASET_REGISTRY.get(dataset_name)(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 40, in __init__
+    super(Ego4dShortTermAnticipationStillVideo, self).__init__(cfg, split)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 28, in __init__
+    self._load_data(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 89, in _load_data
+    self._annotations = self._load_lists(cfg.EGO4D_STA.TRAIN_LISTS)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still.py", line 74, in _load_lists
+    with open(os.path.join(self.cfg.EGO4D_STA.ANNOTATION_DIR,l)) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/the/EGO4D/v2/annotations/fho_sta_train.json'

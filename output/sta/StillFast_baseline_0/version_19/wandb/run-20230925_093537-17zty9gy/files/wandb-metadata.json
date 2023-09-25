@@ -1,0 +1,30 @@
+{
+    "os": "Linux-4.15.0-212-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2023-09-25T07:35:39.271879",
+    "startedAt": "2023-09-25T07:35:37.560263",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-16GB",
+    "gpu_count": 4,
+    "cpu_count": 32,
+    "cuda": "10.2.89",
+    "args": [
+        "--cfg",
+        "/home/lmur/hum_obj_int/stillfast/configs/sta/STILL_FAST_R50_X3DM_EGO4D_v2.yaml",
+        "--train",
+        "--exp",
+        "baseline_0"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/fpv-iplab/stillfast.git",
+        "commit": "199ba4902b7a09e4a55c8d3906068d4063bd15a4"
+    },
+    "email": null,
+    "root": "/home/lmur/hum_obj_int/stillfast",
+    "host": "jonsnow",
+    "username": "lmur",
+    "executable": "/home/lmur/miniconda3/envs/stillfast/bin/python"
+}

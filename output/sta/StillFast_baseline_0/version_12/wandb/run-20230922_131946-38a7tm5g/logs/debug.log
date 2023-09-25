@@ -1,0 +1,495 @@
+2023-09-22 13:19:46,888 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:19:46,888 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:19:46,888 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:19:46,888 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:19:46,888 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_131946-38a7tm5g/logs/debug.log
+2023-09-22 13:19:46,888 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_131946-38a7tm5g/logs/debug-internal.log
+2023-09-22 13:19:46,889 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:19:46,889 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:19:46,889 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:20:13,448 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:20:13,449 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:20:13,449 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:20:13,449 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:20:13,449 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132013-105wbr6b/logs/debug.log
+2023-09-22 13:20:13,449 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132013-105wbr6b/logs/debug-internal.log
+2023-09-22 13:20:13,449 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:20:13,450 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:20:13,450 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:20:13,454 INFO    MainThread:24181 [wandb_run.py:_config_callback():1136] config_cb None None {'cfg': {'CHECKPOINT_FILE_PATH': '', 'CHECKPOINT_LOAD_MODEL_HEAD': True, 'ENABLE_LOGGING': True, 'EXPERIMENT_NAME': 'StillFast_baseline_0', 'TASK': 'sta', 'WANDB_RUN': '', 'DATA': {'FAST': {'MEAN': [0.45, 0.45, 0.45], 'STD': [0.225, 0.225, 0.225], 'NUM_FRAMES': 16, 'SAMPLING_RATE': 1}, 'STILL': {'MIN_SIZE': [640, 672, 704, 736, 768, 800], 'MAX_SIZE': 1333, 'MEAN': [0.485, 0.456, 0.406], 'STD': [0.229, 0.224, 0.225], 'FAST_TO_STILL_SIZE_RATIO': 0.32}}, 'EGO4D_STA': {'STILL_FRAMES_PATH': '/home/furnari/data/ego4d/v2-15-02-23/object_frames/', 'FAST_LMDB_PATH': '/ssd/furnari/sta_lmdb_v2/', 'ANNOTATION_DIR': '/home/furnari/data/ego4d/v2-15-02-23/annotations/', 'TRAIN_LISTS': ['fho_sta_train.json'], 'VAL_LISTS': ['fho_sta_val.json'], 'TEST_LISTS': ['fho_sta_test_unannotated.json']}, 'TRAIN': {'ENABLE': True, 'DATASET': 'Ego4dShortTermAnticipationStillVideo', 'BATCH_SIZE': 14, 'AUGMENTATIONS': {'RANDOM_HORIZONTAL_FLIP': True}, 'GROUP_BATCH_SAMPLER': False, 'WEIGHTED_SAMPLER': False}, 'TEST': {'ENABLE': False, 'DATASET': 'Ego4dShortTermAnticipationStillVideo', 'BATCH_SIZE': 4, 'OUTPUT_JSON': None, 'GROUP_BATCH_SAMPLER': False}, 'VAL': {'ENABLE': False, 'DATASET': 'Ego4dShortTermAnticipationStillVideo', 'BATCH_SIZE': 16, 'OUTPUT_JSON': None, 'GROUP_BATCH_SAMPLER': True}, 'DATA_LOADER': {'NUM_WORKERS': 4, 'PIN_MEMORY': True}, 'NUM_DEVICES': 4, 'FAST_DEV_RUN': False, 'OUTPUT_DIR': './output', 'NUM_SHARDS': 1, 'SAVE_TOP_K': 1, 'AVERAGE_TOP_K_CHECKPOINTS': 1, 'SOLVER': {'BASE_LR': 0.001, 'LR_POLICY': 'multistep_warmup', 'GAMMA': 0.1, 'MILESTONES': [15, 30], 'MAX_EPOCH': 20, 'MOMENTUM': 0.9, 'DAMPENING': 0.0, 'NESTEROV': True, 'WEIGHT_DECAY': 0.0001, 'WARMUP_STEPS': 2000, 'OPTIMIZING_METHOD': 'sgd', 'STRATEGY': 'ddp', 'ACCELERATOR': 'gpu', 'BENCHMARK': False, 'REPLACE_SAMPLER_DDP': False, 'PRECISION': 16}, 'BN': {'EPSILON': 1e-05, 'MOMENTUM': 0.1, 'USE_PRECISE_STATS': False, 'NUM_BATCHES_PRECISE': 200, 'WEIGHT_DECAY': 0.0, 'NORM_TYPE': 'batchnorm', 'NUM_SPLITS': 1, 'NUM_SYNC_DEVICES': 1}, 'MODEL': {'NAME': 'StillFast', 'BRANCH': 'Still', 'STILL': {'BACKBONE': {'NAME': 'resnet50', 'PRETRAINED': True, 'TRAINABLE_LAYERS': 3}, 'PRETRAINED': True, 'REPLACE_HEAD': True, 'RPN': {'ANCHOR_GENERATOR': None, 'HEAD': None, 'POST_NMS_TOP_N_TEST': 1000, 'POST_NMS_TOP_N_TRAIN': 2000, 'PRE_NMS_TOP_N_TEST': 1000, 'PRE_NMS_TOP_N_TRAIN': 2000, 'NMS_THRESH': 0.7, 'FG_IOU_THRESH': 0.7, 'BG_IOU_THRESH': 0.3, 'BATCH_SIZE_PER_IMAGE': 256, 'POSITIVE_FRACTION': 0.5, 'SCORE_THRESH': 0.0}, 'BOX': {'SCORE_THRESH': 0.05, 'NMS_THRESH': 0.5, 'DETECTIONS_PER_IMG': 100, 'FG_IOU_THRESH': 0.5, 'BG_IOU_THRESH': 0.5, 'BATCH_SIZE_PER_IMAGE': 256, 'POSITIVE_FRACTION': 0.25, 'REG_WEIGHTS': [10.0, 10.0, 5.0, 5.0], 'PREDICTOR_REPRESENTATION_SIZE': 1024, 'POOLER_SAMPLING_RATIO': 0}}, 'FAST': {'BACKBONE': {'NAME': 'x3d_m', 'PRETRAINED': True, 'TEMPORAL_CAUSAL_CONV3D': False}}, 'STILLFAST': {'FUSION': {'FUSION_BLOCK': 'convolutional', 'CONVOLUTIONAL_FUSION_BLOCK': {'POOLING': 'mean', 'POOLING_FRAMES': 16, 'CONV_BLOCK_ARCHITECTURE': 'simple_convolution', 'POST_UP_CONV_BLOCK': True, 'POST_SUM_CONV_BLOCK': True, 'GATING_BLOCK': None, 'TEMPORAL_NONLOCAL_POOLING': {'MAX_HEIGHT_BEFORE_POOLING': 16, 'INTER_CHANNELS': 'half'}}, 'NONLOCAL_FUSION_BLOCK': {'MAX_HEIGHT_BEFORE_SCALING_2D': 128, 'MAX_HEIGHT_BEFORE_POOLING_3D': 16, 'SCALING_2D_MODE': 'nearest', 'INTER_CHANNELS': 'half', 'POST_SUM_CONV_BLOCK': True}, 'PRE_PYRAMID_FUSION': True, 'POST_PYRAMID_FUSION': False, 'LATERAL_CONNECTIONS': False}, 'ROI_HEADS': {'VERSION': 'v2', 'V2_OPTIONS': {'VERB_TOPK': 1, 'FUSION': 'concat_residual'}}}, 'NOUN_CLASSES': 128, 'VERB_CLASSES': 81, 'LOSS': {'WEIGHTS': {'NOUN': 1.0, 'VERB': 0.1, 'TTC': 0.5, 'NAO': 1}, 'NOUN': 'cross_entropy', 'VERB': 'cross_entropy', 'TTC': 'smooth_l1'}, 'TTC_PREDICTOR': 'regressor'}}}
+2023-09-22 13:20:39,423 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:20:39,423 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:20:39,423 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:20:39,424 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:20:39,424 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132039-2wr1b3dm/logs/debug.log
+2023-09-22 13:20:39,424 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132039-2wr1b3dm/logs/debug-internal.log
+2023-09-22 13:20:39,424 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:20:39,425 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:20:39,425 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:20:39,718 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:20:39,718 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:20:39,719 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:20:39,719 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:20:39,720 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132039-2e97s8y0/logs/debug.log
+2023-09-22 13:20:39,721 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132039-2e97s8y0/logs/debug-internal.log
+2023-09-22 13:20:39,722 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:20:39,722 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:20:39,723 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:20:54,576 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:20:54,576 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:20:54,577 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:20:54,577 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:20:54,577 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132054-2refdwo2/logs/debug.log
+2023-09-22 13:20:54,578 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132054-2refdwo2/logs/debug-internal.log
+2023-09-22 13:20:54,578 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:20:54,579 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:20:54,579 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:20:54,835 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:20:54,836 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:20:54,836 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:20:54,836 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:20:54,836 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132054-2kfk7228/logs/debug.log
+2023-09-22 13:20:54,837 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132054-2kfk7228/logs/debug-internal.log
+2023-09-22 13:20:54,837 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:20:54,837 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:20:54,838 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:21:12,213 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:21:12,618 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:21:12,619 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:21:12,620 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:21:12,621 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132112-2bkq130o/logs/debug.log
+2023-09-22 13:21:12,622 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132112-2bkq130o/logs/debug-internal.log
+2023-09-22 13:21:12,623 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:21:12,623 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:21:12,624 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:21:12,899 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:21:12,927 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:21:12,928 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:21:12,929 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:21:12,930 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132112-2blzxp6g/logs/debug.log
+2023-09-22 13:21:12,931 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132112-2blzxp6g/logs/debug-internal.log
+2023-09-22 13:21:12,932 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:21:12,933 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:21:12,934 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:21:27,504 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:21:27,505 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:21:27,505 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:21:27,505 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:21:27,506 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132127-3fpwpska/logs/debug.log
+2023-09-22 13:21:27,506 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132127-3fpwpska/logs/debug-internal.log
+2023-09-22 13:21:27,506 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:21:27,507 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:21:27,507 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:21:27,768 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:21:27,769 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:21:27,769 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:21:27,770 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:21:27,770 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132127-3c8l4vna/logs/debug.log
+2023-09-22 13:21:27,770 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132127-3c8l4vna/logs/debug-internal.log
+2023-09-22 13:21:27,771 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:21:27,772 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:21:27,772 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:21:43,618 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:21:43,619 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:21:43,620 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:21:43,620 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:21:43,621 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132143-1fag1uqe/logs/debug.log
+2023-09-22 13:21:43,623 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132143-1fag1uqe/logs/debug-internal.log
+2023-09-22 13:21:43,624 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:21:43,625 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:21:43,626 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:21:43,958 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:21:43,959 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:21:43,959 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:21:43,960 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:21:43,960 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132143-3c3l53qn/logs/debug.log
+2023-09-22 13:21:43,960 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132143-3c3l53qn/logs/debug-internal.log
+2023-09-22 13:21:43,961 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:21:43,961 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:21:43,962 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:22:05,009 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:22:05,011 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:22:05,011 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:22:05,012 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:22:05,013 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132205-1f73vv53/logs/debug.log
+2023-09-22 13:22:05,013 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132205-1f73vv53/logs/debug-internal.log
+2023-09-22 13:22:05,014 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:22:05,015 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:22:05,016 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:22:05,342 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:22:05,344 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:22:05,346 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:22:05,347 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:22:05,349 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132205-3lxf5vuk/logs/debug.log
+2023-09-22 13:22:05,350 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132205-3lxf5vuk/logs/debug-internal.log
+2023-09-22 13:22:05,352 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:22:05,364 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:22:05,367 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:22:23,702 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:22:23,703 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:22:23,704 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:22:23,704 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:22:23,705 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132223-1khpnjf4/logs/debug.log
+2023-09-22 13:22:23,706 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132223-1khpnjf4/logs/debug-internal.log
+2023-09-22 13:22:23,706 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:22:23,707 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:22:23,708 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:22:24,063 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:22:24,064 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:22:24,064 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:22:24,065 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:22:24,065 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132224-delpde4l/logs/debug.log
+2023-09-22 13:22:24,066 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132224-delpde4l/logs/debug-internal.log
+2023-09-22 13:22:24,066 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:22:24,067 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:22:24,068 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:22:44,824 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:22:44,825 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:22:44,826 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:22:44,826 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:22:44,827 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132244-34c039rn/logs/debug.log
+2023-09-22 13:22:44,828 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132244-34c039rn/logs/debug-internal.log
+2023-09-22 13:22:44,829 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:22:44,830 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:22:44,831 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:22:45,176 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:22:45,176 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:22:45,177 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:22:45,177 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:22:45,178 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132245-157kslap/logs/debug.log
+2023-09-22 13:22:45,179 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132245-157kslap/logs/debug-internal.log
+2023-09-22 13:22:45,179 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:22:45,180 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:22:45,181 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:23:04,277 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:23:04,277 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:23:04,278 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:23:04,279 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:23:04,279 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132304-j9cypwbz/logs/debug.log
+2023-09-22 13:23:04,280 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132304-j9cypwbz/logs/debug-internal.log
+2023-09-22 13:23:04,280 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:23:04,280 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:23:04,281 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:23:04,602 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:23:04,603 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:23:04,603 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:23:04,604 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:23:04,604 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132304-jhv8dksf/logs/debug.log
+2023-09-22 13:23:04,605 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132304-jhv8dksf/logs/debug-internal.log
+2023-09-22 13:23:04,606 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:23:04,606 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:23:04,607 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:23:19,685 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:23:19,686 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:23:19,687 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:23:19,687 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:23:19,688 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132319-38nj1ud8/logs/debug.log
+2023-09-22 13:23:19,689 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132319-38nj1ud8/logs/debug-internal.log
+2023-09-22 13:23:19,690 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:23:19,690 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:23:19,691 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:23:19,945 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:23:19,946 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:23:19,946 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:23:19,947 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:23:19,948 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132319-3i77ym36/logs/debug.log
+2023-09-22 13:23:19,948 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132319-3i77ym36/logs/debug-internal.log
+2023-09-22 13:23:19,949 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:23:19,950 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:23:19,951 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:23:40,272 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:23:40,273 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:23:40,273 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:23:40,274 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:23:40,274 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132340-lzep08a4/logs/debug.log
+2023-09-22 13:23:40,274 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132340-lzep08a4/logs/debug-internal.log
+2023-09-22 13:23:40,275 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:23:40,275 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:23:40,276 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:23:40,577 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:23:40,578 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:23:40,578 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:23:40,579 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:23:40,580 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132340-2s3m8xou/logs/debug.log
+2023-09-22 13:23:40,581 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132340-2s3m8xou/logs/debug-internal.log
+2023-09-22 13:23:40,581 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:23:40,582 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:23:40,583 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:24:01,290 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:24:01,291 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:24:01,292 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:24:01,294 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:24:01,296 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132401-3rsst6iy/logs/debug.log
+2023-09-22 13:24:01,297 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132401-3rsst6iy/logs/debug-internal.log
+2023-09-22 13:24:01,298 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:24:01,300 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:24:01,301 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:24:02,637 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:24:02,638 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:24:02,639 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:24:02,640 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:24:02,640 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132402-dahri4sy/logs/debug.log
+2023-09-22 13:24:02,641 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132402-dahri4sy/logs/debug-internal.log
+2023-09-22 13:24:02,642 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:24:02,643 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:24:02,643 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:24:16,902 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:24:16,903 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:24:16,904 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:24:16,904 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:24:16,905 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132416-mhkl31bx/logs/debug.log
+2023-09-22 13:24:16,906 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132416-mhkl31bx/logs/debug-internal.log
+2023-09-22 13:24:16,907 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:24:16,908 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:24:16,909 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:24:17,237 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:24:17,237 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:24:17,238 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:24:17,239 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:24:17,240 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132417-fwnlvpt5/logs/debug.log
+2023-09-22 13:24:17,241 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132417-fwnlvpt5/logs/debug-internal.log
+2023-09-22 13:24:17,242 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:24:17,242 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:24:17,243 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:24:31,201 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:24:31,202 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:24:31,203 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:24:31,204 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:24:31,205 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132431-1wean0xw/logs/debug.log
+2023-09-22 13:24:31,206 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132431-1wean0xw/logs/debug-internal.log
+2023-09-22 13:24:31,207 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:24:31,207 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:24:31,208 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:24:31,466 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:24:31,468 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:24:31,468 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:24:31,469 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:24:31,470 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132431-ze0te6p5/logs/debug.log
+2023-09-22 13:24:31,471 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132431-ze0te6p5/logs/debug-internal.log
+2023-09-22 13:24:31,472 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:24:31,473 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:24:31,473 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:24:56,415 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:24:56,429 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:24:56,430 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:24:56,431 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:24:56,432 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132456-1ikezszm/logs/debug.log
+2023-09-22 13:24:56,433 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132456-1ikezszm/logs/debug-internal.log
+2023-09-22 13:24:56,434 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:24:56,435 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:24:56,436 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:24:56,714 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:24:56,715 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:24:56,716 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:24:56,716 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:24:56,717 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132456-avh9wjay/logs/debug.log
+2023-09-22 13:24:56,718 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132456-avh9wjay/logs/debug-internal.log
+2023-09-22 13:24:56,719 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:24:56,720 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:24:56,721 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:25:11,813 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:25:11,814 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:25:11,815 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:25:11,839 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:25:11,841 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132511-1yi1g28h/logs/debug.log
+2023-09-22 13:25:11,842 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132511-1yi1g28h/logs/debug-internal.log
+2023-09-22 13:25:11,843 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:25:11,843 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:25:11,844 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:25:12,158 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 13:25:12,159 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 13:25:12,160 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 13:25:12,161 INFO    MainThread:24181 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 13:25:12,162 INFO    MainThread:24181 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132512-2uj5b02u/logs/debug.log
+2023-09-22 13:25:12,163 INFO    MainThread:24181 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_12/wandb/run-20230922_132512-2uj5b02u/logs/debug-internal.log
+2023-09-22 13:25:12,164 INFO    MainThread:24181 [wandb_init.py:init():462] calling init triggers
+2023-09-22 13:25:12,165 INFO    MainThread:24181 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 13:25:12,166 INFO    MainThread:24181 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 13:25:13,376 INFO    MainThread:24181 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2023-09-22 13:25:13,382 INFO    MainThread:24181 [wandb_run.py:_restore():1839] restore
+2023-09-22 13:25:16,072 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 900
+}
+
+2023-09-22 13:25:16,318 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 900
+}
+
+2023-09-22 13:25:16,689 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 900
+}
+
+2023-09-22 13:25:17,172 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 697027
+}
+
+2023-09-22 13:25:17,278 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:17,383 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:17,510 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:17,616 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 191620
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:17,722 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:17,828 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:17,934 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:18,039 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:18,145 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:18,251 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:18,356 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:18,462 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:19,114 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+
+2023-09-22 13:25:19,689 INFO    MainThread:24181 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 697499
+  total_bytes: 697499
+}
+local_info {
+}
+
+2023-09-22 13:25:20,904 INFO    MainThread:24181 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2023-09-22 13:25:20,915 INFO    MainThread:24181 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2023-09-22 13:25:20,924 INFO    MainThread:24181 [wandb_run.py:_footer_sync_info():3060] logging synced files

@@ -60,6 +60,8 @@ class StillFast(FasterRCNN):
             backbone = StillBackbone(cfg.MODEL)
         else: 
             backbone = StillFastBackbone(cfg.MODEL)
+        print(f"Using backbone: {backbone}")
+        print(cfg)
         transform = StillFastTransform(cfg)
 
         hver = cfg.MODEL.STILLFAST.ROI_HEADS.VERSION
@@ -80,6 +82,7 @@ class StillFast(FasterRCNN):
         return options 
 
     def forward(self, batch):
+        print(batch['still_img'][0].shape, 'que sale?')
         images = [StillFastImageTensor(a, b) for a,b in zip(batch['still_img'], batch['fast_imgs'])]
         targets = batch['targets'] if 'targets' in batch else None
         return super().forward(images, targets)

@@ -95,11 +95,12 @@ class Ego4dShortTermAnticipationStill(torch.utils.data.Dataset):
 
     def _assign_groups_based_on_resolutions(self):
         clmap = {k:f"{v['frame_width']}_{v['frame_height']}" for k,v in self._annotations['videos'].items()}
-        self.groups = [clmap[a['video_id']] for a in self._annotations['annotations']]
+        self.groups = [clmap[a['video_uid']] for a in self._annotations['annotations']] #MODIFIED
 
     def __len__(self):
         """ Get the number of samples. """
-        return len(self._annotations['annotations'])
+        print('The total number of annotations is', len(self._annotations['annotations']))
+        return len(self._annotations['annotations']) #For v2, the length is 98276 annotations
 
     def _load_still_frame(self, video_id, frame):
         """ Load images from lmdb. """
@@ -115,7 +116,7 @@ class Ego4dShortTermAnticipationStill(torch.utils.data.Dataset):
         uid = ann['uid']
 
         # get video_id, frame_number, gt_boxes, gt_noun_labels, gt_verb_labels and gt_ttc_targets
-        video_id = ann["video_id"]
+        video_id = ann["video_uid"] # MODIFIED
         frame_number = ann['frame']
 
         if 'objects' in ann:

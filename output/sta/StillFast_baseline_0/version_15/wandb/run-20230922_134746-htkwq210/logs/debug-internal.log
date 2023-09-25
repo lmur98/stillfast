@@ -1,0 +1,98 @@
+2023-09-22 13:47:48,001 INFO    MainThread:30071 [internal.py:wandb_internal():93] W&B internal server running at pid: 30071, started at: 2023-09-22 13:47:48.000405
+2023-09-22 13:47:48,006 INFO    WriterThread:30071 [datastore.py:open_for_write():75] open: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/run-htkwq210.wandb
+2023-09-22 13:47:48,013 DEBUG   SenderThread:30071 [sender.py:send():232] send: header
+2023-09-22 13:47:48,014 DEBUG   SenderThread:30071 [sender.py:send():232] send: run
+2023-09-22 13:47:48,390 INFO    SenderThread:30071 [dir_watcher.py:__init__():197] watching files in: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files
+2023-09-22 13:47:48,391 INFO    SenderThread:30071 [sender.py:_start_run_threads():814] run started: htkwq210 with start time 1695383266
+2023-09-22 13:47:48,391 DEBUG   SenderThread:30071 [sender.py:send():232] send: summary
+2023-09-22 13:47:48,391 INFO    SenderThread:30071 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-09-22 13:47:48,398 DEBUG   HandlerThread:30071 [handler.py:handle_request():141] handle_request: check_version
+2023-09-22 13:47:48,399 DEBUG   SenderThread:30071 [sender.py:send_request():246] send_request: check_version
+2023-09-22 13:47:48,519 DEBUG   HandlerThread:30071 [handler.py:handle_request():141] handle_request: run_start
+2023-09-22 13:47:48,530 DEBUG   HandlerThread:30071 [meta.py:__init__():35] meta init
+2023-09-22 13:47:48,530 DEBUG   HandlerThread:30071 [meta.py:__init__():49] meta init done
+2023-09-22 13:47:48,530 DEBUG   HandlerThread:30071 [meta.py:probe():209] probe
+2023-09-22 13:47:48,539 DEBUG   HandlerThread:30071 [meta.py:_setup_git():199] setup git
+2023-09-22 13:47:48,574 DEBUG   HandlerThread:30071 [meta.py:_setup_git():206] setup git done
+2023-09-22 13:47:48,575 DEBUG   HandlerThread:30071 [meta.py:_save_pip():53] save pip
+2023-09-22 13:47:48,576 DEBUG   HandlerThread:30071 [meta.py:_save_pip():67] save pip done
+2023-09-22 13:47:48,577 DEBUG   HandlerThread:30071 [meta.py:_save_conda():74] save conda
+2023-09-22 13:47:49,404 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/requirements.txt
+2023-09-22 13:47:49,405 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/wandb-summary.json
+2023-09-22 13:47:49,405 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/conda-environment.yaml
+2023-09-22 13:47:53,145 DEBUG   HandlerThread:30071 [meta.py:_save_conda():84] save conda done
+2023-09-22 13:47:53,145 DEBUG   HandlerThread:30071 [meta.py:probe():247] probe done
+2023-09-22 13:47:53,290 DEBUG   SenderThread:30071 [sender.py:send():232] send: files
+2023-09-22 13:47:53,291 INFO    SenderThread:30071 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-09-22 13:47:53,305 DEBUG   HandlerThread:30071 [handler.py:handle_request():141] handle_request: stop_status
+2023-09-22 13:47:53,308 DEBUG   SenderThread:30071 [sender.py:send_request():246] send_request: stop_status
+2023-09-22 13:47:53,393 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_modified():257] file/dir modified: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/conda-environment.yaml
+2023-09-22 13:47:53,393 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/wandb-metadata.json
+2023-09-22 13:47:53,394 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_created():244] file/dir created: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/output.log
+2023-09-22 13:47:53,565 DEBUG   SenderThread:30071 [sender.py:send():232] send: telemetry
+2023-09-22 13:47:53,566 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,567 DEBUG   SenderThread:30071 [sender.py:send():232] send: telemetry
+2023-09-22 13:47:53,567 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,568 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,568 WARNING SenderThread:30071 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 13:47:53,568 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,568 WARNING SenderThread:30071 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 13:47:53,568 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,568 DEBUG   SenderThread:30071 [sender.py:send():232] send: telemetry
+2023-09-22 13:47:53,569 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,569 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,569 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,569 WARNING SenderThread:30071 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 13:47:53,569 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,569 WARNING SenderThread:30071 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 13:47:53,570 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,570 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,570 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,570 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,570 WARNING SenderThread:30071 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 13:47:53,571 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,571 WARNING SenderThread:30071 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 13:47:53,571 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,571 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,571 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,571 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,571 WARNING SenderThread:30071 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 13:47:53,571 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:53,571 WARNING SenderThread:30071 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-09-22 13:47:53,571 DEBUG   SenderThread:30071 [sender.py:send():232] send: metric
+2023-09-22 13:47:54,007 INFO    Thread-11 :30071 [upload_job.py:push():132] Uploaded file /tmp/tmpa7p22bkewandb/3llda5it-wandb-metadata.json
+2023-09-22 13:47:55,394 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_modified():257] file/dir modified: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/output.log
+2023-09-22 13:48:01,398 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_modified():257] file/dir modified: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/output.log
+2023-09-22 13:48:04,400 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_modified():257] file/dir modified: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/output.log
+2023-09-22 13:48:19,415 INFO    Thread-7  :30071 [dir_watcher.py:_on_file_modified():257] file/dir modified: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/config.yaml
+2023-09-22 13:48:20,408 DEBUG   SenderThread:30071 [sender.py:send():232] send: stats
+2023-09-22 13:48:53,026 DEBUG   SenderThread:30071 [sender.py:send():232] send: stats
+2023-09-22 13:49:27,100 DEBUG   SenderThread:30071 [sender.py:send():232] send: stats
+2023-09-22 13:50:00,705 DEBUG   SenderThread:30071 [sender.py:send():232] send: stats
+2023-09-22 13:50:33,976 DEBUG   SenderThread:30071 [sender.py:send():232] send: stats
+2023-09-22 13:51:07,858 DEBUG   SenderThread:30071 [sender.py:send():232] send: stats
+2023-09-22 13:51:40,802 DEBUG   SenderThread:30071 [sender.py:send():232] send: stats
+2023-09-22 13:52:15,396 DEBUG   SenderThread:30071 [sender.py:send():232] send: stats
+2023-09-22 13:52:35,267 WARNING MainThread:30071 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-09-22 13:52:48,323 DEBUG   SenderThread:30071 [sender.py:send():232] send: stats
+2023-09-22 13:52:51,877 WARNING MainThread:30071 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-09-22 13:52:51,877 ERROR   MainThread:30071 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-09-22 13:52:52,325 INFO    WriterThread:30071 [datastore.py:close():279] close: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/run-htkwq210.wandb
+2023-09-22 13:52:52,327 INFO    SenderThread:30071 [sender.py:finish():1110] shutting down sender
+2023-09-22 13:52:52,327 INFO    SenderThread:30071 [dir_watcher.py:finish():312] shutting down directory watcher
+2023-09-22 13:52:52,328 INFO    HandlerThread:30071 [handler.py:finish():806] shutting down handler
+2023-09-22 13:52:52,483 INFO    SenderThread:30071 [dir_watcher.py:finish():342] scan: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files
+2023-09-22 13:52:52,484 INFO    SenderThread:30071 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/wandb-metadata.json wandb-metadata.json
+2023-09-22 13:52:52,484 INFO    SenderThread:30071 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/config.yaml config.yaml
+2023-09-22 13:52:52,485 INFO    SenderThread:30071 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/output.log output.log
+2023-09-22 13:52:52,486 INFO    SenderThread:30071 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/conda-environment.yaml conda-environment.yaml
+2023-09-22 13:52:52,514 INFO    SenderThread:30071 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/requirements.txt requirements.txt
+2023-09-22 13:52:52,521 INFO    SenderThread:30071 [dir_watcher.py:finish():356] scan save: ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/wandb-summary.json wandb-summary.json
+2023-09-22 13:52:52,545 INFO    SenderThread:30071 [file_pusher.py:finish():145] shutting down file pusher
+2023-09-22 13:52:52,545 INFO    SenderThread:30071 [file_pusher.py:join():150] waiting for file pusher
+2023-09-22 13:52:53,160 INFO    Thread-14 :30071 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/conda-environment.yaml
+2023-09-22 13:52:53,185 INFO    Thread-12 :30071 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/config.yaml
+2023-09-22 13:52:53,201 INFO    Thread-15 :30071 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/requirements.txt
+2023-09-22 13:52:53,205 INFO    Thread-16 :30071 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/wandb-summary.json
+2023-09-22 13:52:53,262 INFO    Thread-13 :30071 [upload_job.py:push():132] Uploaded file ./output/sta/StillFast_baseline_0/version_15/wandb/run-20230922_134746-htkwq210/files/output.log
+2023-09-22 13:52:53,746 INFO    MainThread:30071 [internal.py:handle_exit():80] Internal process exited

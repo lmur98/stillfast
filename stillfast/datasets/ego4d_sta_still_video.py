@@ -10,6 +10,7 @@ from .build import DATASET_REGISTRY
 from stillfast.datasets.sta_hlmdb import Ego4DHLMDB
 from stillfast.datasets.ego4d_sta_still import Ego4dShortTermAnticipationStill
 from stillfast.datasets import StillFastImageTensor
+from stillfast.config.defaults import get_cfg
 
 class Ego4DHLMDB_STA_Still_Video(Ego4DHLMDB):
     def get(self, video_id: str, frame: int) -> np.ndarray:
@@ -23,8 +24,7 @@ class Ego4DHLMDB_STA_Still_Video(Ego4DHLMDB):
         out = []
         with self._get_parent(video_id) as env:
             with env.begin() as txn:
-                for frame in frames:
-                    #print("video_id", video_id, "Frame", frame)
+                for frame in frames: #We extract here the frames from the video
                     data = txn.get(self.frame_template.format(video_id=video_id,frame_number=frame).encode())
                     out.append(Image.open(io.BytesIO(data)))
             return out
@@ -67,7 +67,6 @@ class Ego4dShortTermAnticipationStillVideo(Ego4dShortTermAnticipationStill):
         fast_imgs = self._load_frames_lmdb(
                 video_id, frames_list
             )
-
         still_img = self._load_still_frame(video_id, frame_number)
 
         return still_img, fast_imgs
@@ -75,11 +74,12 @@ class Ego4dShortTermAnticipationStillVideo(Ego4dShortTermAnticipationStill):
     def __getitem__(self, idx):
         """ Get the idx-th sample. """
         uid, video_id, frame_number, gt_boxes, gt_noun_labels, gt_verb_labels, gt_ttc_targets = self._load_annotations(idx)
+        #Frame number: int, gt_boxes: np.ndarray, gt_noun_labels: np.ndarray, gt_verb_labels: np.ndarray, gt_ttc_targets: np.ndarray]
 
         still_img, fast_imgs = self._load_still_fast_frames(video_id, frame_number)
 
-        still_img = self.convert_tensor(still_img)
-        fast_imgs = torch.stack([self.convert_tensor(img) for img in fast_imgs], dim=1)
+        still_img = self.convert_tensor(still_img) # Torch (3, 1080, 1440) #CHW
+        fast_imgs = torch.stack([self.convert_tensor(img) for img in fast_imgs], dim=1) # Torch (3, 16, 320, 426)
 
         # FIXME: this is a hack to make the dataset compatible with the original Ego4d dataset
         # This could create problems when producing results on the test set and sending them to the
@@ -88,12 +88,27 @@ class Ego4dShortTermAnticipationStillVideo(Ego4dShortTermAnticipationStill):
             verb_offset = 1
         else:
             verb_offset = 0
-            
+
         targets = {
             'boxes': torch.from_numpy(gt_boxes),
             'noun_labels': torch.Tensor(gt_noun_labels).long()+1,
             'verb_labels': torch.Tensor(gt_verb_labels).long()+verb_offset,
             'ttc_targets': torch.Tensor(gt_ttc_targets)
         } if gt_boxes is not None else None
-
+        print('the size of the high res image is', still_img.shape)
         return {'still_img': still_img, 'fast_imgs': fast_imgs, 'targets': targets, 'uids': uid}
+
+cfg_file = '/home/lmur/hum_obj_int/stillfast/configs/sta/STILL_FAST_R50_X3DM_EGO4D_v2.yaml'
+
+cfg = get_cfg() # Setup cfg.
+cfg.merge_from_file(cfg_file)
+dataset = Ego4dShortTermAnticipationStillVideo(cfg, split = 'train')
+print('There are in total {} samples in the dataset.'.format(len(dataset)))
+for sample in dataset:
+    print('In each of the samples there is:')
+    print('A high resolution image', sample['still_img'].shape)
+    print('A low resolution video', sample['fast_imgs'].shape)
+    print('The targets with boxes, noun labels, verb labels and ttc labels')
+    print(sample['targets']['boxes'].shape, sample['targets']['noun_labels'].shape, sample['targets']['verb_labels'].shape, sample['targets']['ttc_targets'].shape)
+    print('And the final uids', sample['uids'])
+    break

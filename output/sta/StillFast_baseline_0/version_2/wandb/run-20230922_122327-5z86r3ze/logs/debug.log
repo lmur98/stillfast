@@ -1,0 +1,136 @@
+2023-09-22 12:23:27,767 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 12:23:27,767 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 12:23:27,767 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 12:23:27,767 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 12:23:27,767 INFO    MainThread:2642 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_2/wandb/run-20230922_122327-5z86r3ze/logs/debug.log
+2023-09-22 12:23:27,767 INFO    MainThread:2642 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_2/wandb/run-20230922_122327-5z86r3ze/logs/debug-internal.log
+2023-09-22 12:23:27,768 INFO    MainThread:2642 [wandb_init.py:init():462] calling init triggers
+2023-09-22 12:23:27,768 INFO    MainThread:2642 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 12:23:27,768 INFO    MainThread:2642 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 12:23:27,785 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 12:23:27,785 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 12:23:27,785 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 12:23:27,785 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 12:23:27,785 INFO    MainThread:2642 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_2/wandb/run-20230922_122327-cbi6c2o4/logs/debug.log
+2023-09-22 12:23:27,785 INFO    MainThread:2642 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_2/wandb/run-20230922_122327-cbi6c2o4/logs/debug-internal.log
+2023-09-22 12:23:27,786 INFO    MainThread:2642 [wandb_init.py:init():462] calling init triggers
+2023-09-22 12:23:27,786 INFO    MainThread:2642 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 12:23:27,786 INFO    MainThread:2642 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 12:23:27,800 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/.config/wandb/settings
+2023-09-22 12:23:27,800 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Loading settings from /home/lmur/hum_obj_int/stillfast/wandb/settings
+2023-09-22 12:23:27,800 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-22 12:23:27,801 INFO    MainThread:2642 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-09-22 12:23:27,801 INFO    MainThread:2642 [wandb_init.py:_log_setup():428] Logging user logs to ./output/sta/StillFast_baseline_0/version_2/wandb/run-20230922_122327-1ucu265b/logs/debug.log
+2023-09-22 12:23:27,801 INFO    MainThread:2642 [wandb_init.py:_log_setup():429] Logging internal logs to ./output/sta/StillFast_baseline_0/version_2/wandb/run-20230922_122327-1ucu265b/logs/debug-internal.log
+2023-09-22 12:23:27,801 INFO    MainThread:2642 [wandb_init.py:init():462] calling init triggers
+2023-09-22 12:23:27,802 INFO    MainThread:2642 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2023-09-22 12:23:27,802 INFO    MainThread:2642 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2023-09-22 12:23:50,813 INFO    MainThread:2642 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 1
+2023-09-22 12:23:50,815 INFO    MainThread:2642 [wandb_run.py:_restore():1839] restore
+2023-09-22 12:23:54,127 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 900
+}
+
+2023-09-22 12:23:54,671 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:54,775 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:54,879 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:54,982 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:55,086 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 900
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:55,190 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19033
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:55,293 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19033
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:55,407 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19033
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:55,511 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19033
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:56,199 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19033
+  total_bytes: 19033
+}
+
+2023-09-22 12:23:56,770 INFO    MainThread:2642 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19033
+  total_bytes: 19033
+}
+local_info {
+}
+
+2023-09-22 12:23:57,954 INFO    MainThread:2642 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2023-09-22 12:23:57,955 INFO    MainThread:2642 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2023-09-22 12:23:57,964 INFO    MainThread:2642 [wandb_run.py:_footer_sync_info():3060] logging synced files

@@ -93,6 +93,7 @@ class StillFastTransform(GeneralizedRCNNTransform):
             targets_out = []
             
             for fast_img, still_img, target in zip(fast_imgs, still_imgs, targets):
+                print(fast_img.shape, still_img.shape, 'eeeing')
                 if random() < 0.5:
                     still_img_out = still_img.flip(2) #C x H x W
                     fast_img_out = fast_img.flip(3) #C x F x H x W

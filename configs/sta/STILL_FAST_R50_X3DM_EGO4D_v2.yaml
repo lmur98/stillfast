@@ -10,6 +10,7 @@ DATA:
     NUM_FRAMES: 16
     SAMPLING_RATE: 1
 MODEL:
+  #BRANCH: NO_still
   NAME: StillFast
   NOUN_CLASSES: 128
   VERB_CLASSES: 81
@@ -56,9 +57,9 @@ SOLVER:
   MILESTONES: [15, 30]
   PRECISION: 16
 EGO4D_STA:
-  STILL_FRAMES_PATH: /path/to/the/EGO4D/v2/object_frames/folder/
-  FAST_LMDB_PATH: /path/to/the/EGO4D/v2/lmdb/folder/
-  ANNOTATION_DIR: /path/to/the/EGO4D/v2/annotations/ 
+  STILL_FRAMES_PATH: /home/furnari/data/ego4d/v2-15-02-23/object_frames/
+  FAST_LMDB_PATH: /ssd/furnari/sta_lmdb_v2/
+  ANNOTATION_DIR: /home/furnari/data/ego4d/v2-15-02-23/annotations/ 
   TRAIN_LISTS: [fho_sta_train.json] 
   VAL_LISTS: [fho_sta_val.json]
   TEST_LISTS: [fho_sta_test_unannotated.json]

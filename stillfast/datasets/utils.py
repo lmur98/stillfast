@@ -78,7 +78,7 @@ def get_annotations_weights(annotations):
     ttcs = []
     uids = []
     for ann in annotations['annotations']:
-        info = annotations['videos'][ann['video_id']]
+        info = annotations['videos'][ann['video_uid']] # MODIFIED
         for obj in ann['objects']:
             box = copy(obj['box'])
             box[0]/=info['frame_width']

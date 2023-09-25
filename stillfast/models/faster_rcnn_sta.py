@@ -292,11 +292,14 @@ class RoiHeadsSTAv2(RoiHeadsSTA):
 
         self._check_targets(targets)
         proposals, matched_idxs, noun_labels, regression_targets = self._select_training_samples(proposals, targets)
+        #The features are, with respect to the still image (256, 352)
+        #"0": [bs, 256, 200, 272], "1": [bs, 256, 100, 136], "2": [bs, 256, 50, 68], "3": [bs, 256, 25, 34], "pool": [bs, 256, 13, 17]
+
         box_features = self._compute_box_features(features, proposals, image_shapes)
 
         global_features = features['pool']
         global_features = global_features.view(global_features.shape[0], global_features.shape[1],-1).mean(-1)
-        
+        # Global feats are [bs, 256]
         BS = global_features.shape[0]
 
         if self.fusion == 'sum':
@@ -313,10 +316,10 @@ class RoiHeadsSTAv2(RoiHeadsSTA):
         else:
             raise ValueError('Unknown fusion method: {}'.format(self.fusion))
         
-        class_logits, box_regression = self.box_predictor(gl_box_features)
-        verb_logits = self.verb_predictor(gl_box_features)
-        ttc_predictions = self.ttc_predictor(gl_box_features)
-
+        class_logits, box_regression = self.box_predictor(gl_box_features) # [768, 129], [768, 129 x 4] -> 129 is the number of nouns
+        verb_logits = self.verb_predictor(gl_box_features) # [768, 83] -> 83 is the number of verbs
+        ttc_predictions = self.ttc_predictor(gl_box_features) # [768, 1]
+        
         result: List[Dict[str, torch.Tensor]] = []
         losses = {}
 

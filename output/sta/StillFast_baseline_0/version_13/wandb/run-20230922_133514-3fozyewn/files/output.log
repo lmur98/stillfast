@@ -1,0 +1,338 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+The total number of annotations is 98274
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+  | Name  | Type      | Params
+------------------------------------
+0 | model | StillFast | 44.4 M
+------------------------------------
+44.2 M    Trainable params
+222 K     Non-trainable params
+44.4 M    Total params
+88.793    Total estimated model params size (MB)
+The total number of annotations is 98274
+The total number of annotations is 98274
+The total number of annotations is 98274
+The total number of annotations is 47395
+The total number of annotations is 47395
+The total number of annotations is 19780
+The total number of annotations is 47395
+The total number of annotations is 47395
+The total number of annotations is 47395
+The total number of annotations is 47395
+The total number of annotations is 47395
+The total number of annotations is 47395
+The total number of annotations is 19780
+The total number of annotations is 19780
+The total number of annotations is 19780
+Sanity Checking: 0it [00:00, ?it/s]The total number of annotations is 47395
+The total number of annotations is 47395
+The total number of annotations is 47395
+The total number of annotations is 47395
+Sanity Checking DataLoader 0:   0%|                                             | 0/3 [00:00<?, ?it/s]Only still backbone
+Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+Only still backbone
+h_still torch.Size([4, 3, 768, 1344])
+h_fast torch.Size([4, 3, 16, 256, 448])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+global_features torch.Size([4, 256])
+global_features torch.Size([4, 256])
+0 torch.Size([4, 256, 192, 336])
+1 torch.Size([4, 256, 96, 168])
+2 torch.Size([4, 256, 48, 84])
+3 torch.Size([4, 256, 24, 42])
+pool torch.Size([4, 256, 12, 21])
+global_features torch.Size([4, 256])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+global_features torch.Size([4, 256])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+global_features torch.Size([4, 256])
+Sanity Checking DataLoader 0:  33%|████████████▎                        | 1/3 [00:00<00:01,  1.83it/s]Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+global_features torch.Size([4, 256])
+global_features torch.Size([4, 256])
+Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+global_features torch.Size([4, 256])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+global_features torch.Size([4, 256])
+Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+Sanity Checking DataLoader 0:  67%|████████████████████████▋            | 2/3 [00:01<00:00,  1.69it/s]Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+Only still backbone
+h_still torch.Size([4, 3, 800, 1088])
+h_fast torch.Size([4, 3, 16, 256, 352])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+global_features torch.Size([4, 256])
+0 torch.Size([4, 256, 200, 272])
+1 torch.Size([4, 256, 100, 136])
+2 torch.Size([4, 256, 50, 68])
+3 torch.Size([4, 256, 25, 34])
+pool torch.Size([4, 256, 13, 17])
+global_features torch.Size([4, 256])
+global_features torch.Size([4, 256])
+Sanity Checking DataLoader 0: 100%|█████████████████████████████████████| 3/3 [00:01<00:00,  2.16it/s]Validation done on 48 predictions, 0 boxes in total
+Validation done on 48 predictions, 0 boxes in total
+Validation done on 48 predictions, 0 boxes in total
+Validation done on 48 predictions, 0 boxes in total
+Epoch 0:   0%|                                                              | 0/11153 [00:00<?, ?it/s]The total number of annotations is 98274
+The total number of annotations is 98274
+The total number of annotations is 98274
+The total number of annotations is 98274
+Only still backbone
+h_still torch.Size([3, 3, 736, 992])
+h_fast torch.Size([3, 3, 16, 256, 320])
+Only still backbone
+h_still torch.Size([3, 3, 736, 1312])
+h_fast torch.Size([3, 3, 16, 256, 448])
+0 torch.Size([3, 256, 184, 248])
+1 torch.Size([3, 256, 92, 124])
+2 torch.Size([3, 256, 46, 62])
+3 torch.Size([3, 256, 23, 31])
+pool torch.Size([3, 256, 12, 16])
+global_features torch.Size([3, 256])
+0 torch.Size([3, 256, 184, 328])
+1 torch.Size([3, 256, 92, 164])
+2 torch.Size([3, 256, 46, 82])
+3 torch.Size([3, 256, 23, 41])
+pool torch.Size([3, 256, 12, 21])
+global_features torch.Size([3, 256])
+Only still backbone
+h_still torch.Size([3, 3, 768, 1344])
+h_fast torch.Size([3, 3, 16, 256, 448])
+Only still backbone
+h_still torch.Size([3, 3, 800, 1088])
+h_fast torch.Size([3, 3, 16, 256, 352])
+0 torch.Size([3, 256, 192, 336])
+1 torch.Size([3, 256, 96, 168])
+2 torch.Size([3, 256, 48, 84])
+3 torch.Size([3, 256, 24, 42])
+pool torch.Size([3, 256, 12, 21])
+global_features torch.Size([3, 256])
+0 torch.Size([3, 256, 200, 272])
+1 torch.Size([3, 256, 100, 136])
+2 torch.Size([3, 256, 50, 68])
+3 torch.Size([3, 256, 25, 34])
+pool torch.Size([3, 256, 13, 17])
+global_features torch.Size([3, 256])
+/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py:724: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+  rank_zero_warn("Detected KeyboardInterrupt, attempting graceful shutdown...")
+Exception in thread Thread-13:
+Traceback (most recent call last):
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/pin_memory.py", line 28, in _pin_memory_loop
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/multiprocessing/queues.py", line 113, in get
+    return _ForkingPickler.loads(res)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/multiprocessing/reductions.py", line 295, in rebuild_storage_fd
+    fd = df.detach()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/multiprocessing/resource_sharer.py", line 87, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/multiprocessing/connection.py", line 492, in Client
+    c = SocketClient(address)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/multiprocessing/connection.py", line 620, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+Epoch 0:   0%|                            | 1/11153 [00:03<11:50:25,  3.82s/it, loss=5.48, v_num=n_13]Only still backbone
+h_still torch.Size([3, 3, 800, 1344])
+h_fast torch.Size([3, 3, 16, 256, 448])
+Only still backbone
+h_still torch.Size([3, 3, 768, 1344])
+h_fast torch.Size([3, 3, 16, 256, 448])
+Only still backbone
+h_still torch.Size([3, 3, 736, 992])
+h_fast torch.Size([3, 3, 16, 256, 320])
+Only still backbone
+h_still torch.Size([3, 3, 800, 1344])
+h_fast torch.Size([3, 3, 16, 256, 448])
+0 torch.Size([3, 256, 184, 248])
+1 torch.Size([3, 256, 92, 124])
+2 torch.Size([3, 256, 46, 62])
+3 torch.Size([3, 256, 23, 31])
+pool torch.Size([3, 256, 12, 16])
+global_features torch.Size([3, 256])
+0 torch.Size([3, 256, 200, 336])
+1 torch.Size([3, 256, 100, 168])
+2 torch.Size([3, 256, 50, 84])
+3 torch.Size([3, 256, 25, 42])
+pool torch.Size([3, 256, 13, 21])
+global_features torch.Size([3, 256])
+0 torch.Size([3, 256, 200, 336])
+1 torch.Size([3, 256, 100, 168])
+2 torch.Size([3, 256, 50, 84])
+3 torch.Size([3, 256, 25, 42])
+pool torch.Size([3, 256, 13, 21])
+global_features torch.Size([3, 256])
+0 torch.Size([3, 256, 192, 336])
+1 torch.Size([3, 256, 96, 168])
+2 torch.Size([3, 256, 48, 84])
+3 torch.Size([3, 256, 24, 42])
+pool torch.Size([3, 256, 12, 21])
+global_features torch.Size([3, 256])
+Epoch 0:   0%|                             | 2/11153 [00:04<7:18:27,  2.36s/it, loss=5.55, v_num=n_13]Only still backbone
+h_still torch.Size([3, 3, 704, 960])
+h_fast torch.Size([3, 3, 16, 224, 320])
+Only still backbone
+h_still torch.Size([3, 3, 704, 960])
+h_fast torch.Size([3, 3, 16, 224, 320])
+Only still backbone
+h_still torch.Size([3, 3, 800, 1312])
+h_fast torch.Size([3, 3, 16, 256, 448])
+Only still backbone
+h_still torch.Size([3, 3, 704, 960])
+h_fast torch.Size([3, 3, 16, 256, 320])
+0 torch.Size([3, 256, 176, 240])
+1 torch.Size([3, 256, 88, 120])
+2 torch.Size([3, 256, 44, 60])
+3 torch.Size([3, 256, 22, 30])
+pool torch.Size([3, 256, 11, 15])
+0 torch.Size([3, 256, 176, 240])
+1 torch.Size([3, 256, 88, 120])
+2 torch.Size([3, 256, 44, 60])
+3 torch.Size([3, 256, 22, 30])
+pool torch.Size([3, 256, 11, 15])
+global_features torch.Size([3, 256])
+global_features torch.Size([3, 256])
+0 torch.Size([3, 256, 176, 240])
+1 torch.Size([3, 256, 88, 120])
+2 torch.Size([3, 256, 44, 60])
+3 torch.Size([3, 256, 22, 30])
+pool torch.Size([3, 256, 11, 15])
+global_features torch.Size([3, 256])
+0 torch.Size([3, 256, 200, 328])
+1 torch.Size([3, 256, 100, 164])
+2 torch.Size([3, 256, 50, 82])
+3 torch.Size([3, 256, 25, 41])
+pool torch.Size([3, 256, 13, 21])
+global_features torch.Size([3, 256])
+Epoch 0:   0%|                              | 3/11153 [00:05<5:21:58,  1.73s/it, loss=5.6, v_num=n_13]Only still backbone
+h_still torch.Size([3, 3, 800, 1088])
+h_fast torch.Size([3, 3, 16, 256, 352])
+Only still backbone
+h_still torch.Size([3, 3, 768, 1344])
+Only still backbone
+h_fast torch.Size([3, 3, 16, 256, 448])
+h_still torch.Size([3, 3, 768, 1344])
+h_fast torch.Size([3, 3, 16, 256, 448])
+Only still backbone
+h_still torch.Size([3, 3, 800, 1088])
+h_fast torch.Size([3, 3, 16, 256, 352])
+0 torch.Size([3, 256, 200, 272])
+1 torch.Size([3, 256, 100, 136])
+2 torch.Size([3, 256, 50, 68])
+3 torch.Size([3, 256, 25, 34])
+pool torch.Size([3, 256, 13, 17])
+global_features torch.Size([3, 256])
+0 torch.Size([3, 256, 192, 336])
+1 torch.Size([3, 256, 96, 168])
+2 torch.Size([3, 256, 48, 84])
+3 torch.Size([3, 256, 24, 42])
+pool torch.Size([3, 256, 12, 21])
+global_features torch.Size([3, 256])

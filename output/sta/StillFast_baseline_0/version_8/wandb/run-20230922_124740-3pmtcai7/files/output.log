@@ -1,0 +1,832 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+ROIHEADSSTAv2
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+ROIHEADSSTAv2
+Loading checkpoint from https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth
+Skipping roi_heads weights as the head has been replaced
+Missing keys: []
+Unmatched keys: []
+Logging enabled: True
+************** que ostias es esto 98276
+the first element is
+{'uid': '26202090-684d-4be8-b3cc-de04da827e91_0000984', 'main_uid': '3b867f4f-958b-4735-aecd-5984998658a7', 'video_uid': '26202090-684d-4be8-b3cc-de04da827e91', 'frame': 984, 'clip_id': 121, 'clip_uid': '4f68183f-610a-44de-b102-e7f300b49dcd', 'clip_frame': 984, 'action_start_sec': 30.654361933333334, 'action_end_sec': 38.654361933333334, 'action_start_frame': 919, 'action_end_frame': 1159, 'action_clip_start_sec': 30.654361933333334, 'action_clip_end_sec': 38.654361933333334, 'action_clip_start_frame': 919, 'action_clip_end_frame': 1159, 'interval_start_frame': 0, 'interval_end_frame': 8999, 'interval_start_sec': 0.0, 'interval_end_sec': 300.0, 'clip_parent_start_sec': 0.0, 'clip_parent_end_sec': 308.0, 'clip_parent_start_frame': 0, 'clip_parent_end_frame': 9239, 'objects': [{'box': [235.32, 43.3, 581.69, 440.18], 'verb_category_id': 34, 'noun_category_id': 1, 'time_to_contact': 1.7666666666666666}]}
+videos ->
+annotations ->
+************** que ostias es esto 98276
+the first element is
+{'uid': '26202090-684d-4be8-b3cc-de04da827e91_0000984', 'main_uid': '3b867f4f-958b-4735-aecd-5984998658a7', 'video_uid': '26202090-684d-4be8-b3cc-de04da827e91', 'frame': 984, 'clip_id': 121, 'clip_uid': '4f68183f-610a-44de-b102-e7f300b49dcd', 'clip_frame': 984, 'action_start_sec': 30.654361933333334, 'action_end_sec': 38.654361933333334, 'action_start_frame': 919, 'action_end_frame': 1159, 'action_clip_start_sec': 30.654361933333334, 'action_clip_end_sec': 38.654361933333334, 'action_clip_start_frame': 919, 'action_clip_end_frame': 1159, 'interval_start_frame': 0, 'interval_end_frame': 8999, 'interval_start_sec': 0.0, 'interval_end_sec': 300.0, 'clip_parent_start_sec': 0.0, 'clip_parent_end_sec': 308.0, 'clip_parent_start_frame': 0, 'clip_parent_end_frame': 9239, 'objects': [{'box': [235.32, 43.3, 581.69, 440.18], 'verb_category_id': 34, 'noun_category_id': 1, 'time_to_contact': 1.7666666666666666}]}
+videos ->
+annotations ->
+************** que ostias es esto 98276
+the first element is
+{'uid': '26202090-684d-4be8-b3cc-de04da827e91_0000984', 'main_uid': '3b867f4f-958b-4735-aecd-5984998658a7', 'video_uid': '26202090-684d-4be8-b3cc-de04da827e91', 'frame': 984, 'clip_id': 121, 'clip_uid': '4f68183f-610a-44de-b102-e7f300b49dcd', 'clip_frame': 984, 'action_start_sec': 30.654361933333334, 'action_end_sec': 38.654361933333334, 'action_start_frame': 919, 'action_end_frame': 1159, 'action_clip_start_sec': 30.654361933333334, 'action_clip_end_sec': 38.654361933333334, 'action_clip_start_frame': 919, 'action_clip_end_frame': 1159, 'interval_start_frame': 0, 'interval_end_frame': 8999, 'interval_start_sec': 0.0, 'interval_end_sec': 300.0, 'clip_parent_start_sec': 0.0, 'clip_parent_end_sec': 308.0, 'clip_parent_start_frame': 0, 'clip_parent_end_frame': 9239, 'objects': [{'box': [235.32, 43.3, 581.69, 440.18], 'verb_category_id': 34, 'noun_category_id': 1, 'time_to_contact': 1.7666666666666666}]}
+videos ->
+annotations ->
+************** que ostias es esto 98276
+the first element is
+{'uid': '26202090-684d-4be8-b3cc-de04da827e91_0000984', 'main_uid': '3b867f4f-958b-4735-aecd-5984998658a7', 'video_uid': '26202090-684d-4be8-b3cc-de04da827e91', 'frame': 984, 'clip_id': 121, 'clip_uid': '4f68183f-610a-44de-b102-e7f300b49dcd', 'clip_frame': 984, 'action_start_sec': 30.654361933333334, 'action_end_sec': 38.654361933333334, 'action_start_frame': 919, 'action_end_frame': 1159, 'action_clip_start_sec': 30.654361933333334, 'action_clip_end_sec': 38.654361933333334, 'action_clip_start_frame': 919, 'action_clip_end_frame': 1159, 'interval_start_frame': 0, 'interval_end_frame': 8999, 'interval_start_sec': 0.0, 'interval_end_sec': 300.0, 'clip_parent_start_sec': 0.0, 'clip_parent_end_sec': 308.0, 'clip_parent_start_frame': 0, 'clip_parent_end_frame': 9239, 'objects': [{'box': [235.32, 43.3, 581.69, 440.18], 'verb_category_id': 34, 'noun_category_id': 1, 'time_to_contact': 1.7666666666666666}]}
+videos ->
+annotations ->
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+removed 2 degenerate objects and 2 annotations with no objects
+************** 98274
+************** 98274
+************** 98274
+************** 98274
+************** 47395
+************** 47395
+************** 47395
+************** 47395
+************** 19780
+************** 19780
+************** 47395
+************** 47395
+************** 19780
+************** 47395
+************** 47395
+************** 19780
+Sanity Checking: 0it [00:00, ?it/s]************** 47395
+************** 47395
+************** 47395
+************** 47395
+40555 where are in the video dataset
+uid 6b91041f-bd60-4738-8305-46b144ce725d_0008448
+video_id 6b91041f-bd60-4738-8305-46b144ce725d
+frame_number 8448
+9063 where are in the video dataset
+7019 where are in the video dataset
+uid 3534864b-2289-4aaf-b3ed-10eeeee7acd2_0080014
+video_id 3534864b-2289-4aaf-b3ed-10eeeee7acd2
+frame_number 80014
+uid aeadb544-fd9f-4bb8-bfbd-fbefd899ec8e_0025744
+video_id aeadb544-fd9f-4bb8-bfbd-fbefd899ec8e
+frame_number 25744
+35043 where are in the video dataset
+gt_boxes [[ 783.55  273.23 1014.83  487.79]]
+uid 826e419a-8788-484f-9543-550964666762_0056556
+video_id 826e419a-8788-484f-9543-550964666762
+frame_number 56556
+gt_noun_labels [22]
+gt_verb_labels [62]
+gt_ttc_targets [0.7]
+gt_boxes [[ 767.41  582.72 1024.2   952.1 ]]
+gt_boxes [[1873.17  775.45 1920.17  995.54]]
+gt_noun_labels [16]
+gt_noun_labels [112]
+gt_verb_labels [62]
+gt_verb_labels [44]
+gt_ttc_targets [0.73333333]
+gt_ttc_targets [1.66666667]
+gt_boxes [[1178.54  574.85 1285.33  646.05]]
+gt_noun_labels [21]
+gt_verb_labels [44]
+gt_ttc_targets [1.46666667]
+18659 where are in the video dataset
+uid ab22264a-91ce-4c3f-96b0-e6405a46f92f_0035043
+video_id ab22264a-91ce-4c3f-96b0-e6405a46f92f
+frame_number 35043
+gt_boxes [[1037.41  176.33 1259.8   491.48]]
+gt_noun_labels [44]
+gt_verb_labels [8]
+gt_ttc_targets [0.23333333]
+27363 where are in the video dataset
+uid ffb7ecf6-f44e-499b-b315-a4aeabf3578c_0043802
+video_id ffb7ecf6-f44e-499b-b315-a4aeabf3578c
+frame_number 43802
+gt_boxes [[553.04 410.25 819.49 795.36]]
+gt_noun_labels [41]
+gt_verb_labels [67]
+gt_ttc_targets [0.16666667]
+45377 where are in the video dataset
+26293 where are in the video dataset
+uid 06df3251-8d22-4ea0-8d0a-0ae4760d771f_0027595
+video_id 06df3251-8d22-4ea0-8d0a-0ae4760d771f
+frame_number 27595
+22829 where are in the video dataset
+31949 where are in the video dataset
+uid 11f51f72-c0bd-4631-aabb-6ecbe17d95c9_0007184
+video_id 11f51f72-c0bd-4631-aabb-6ecbe17d95c9
+frame_number 7184
+uid 62ca20e4-b289-47fc-b175-4ce77178de82_0016823
+video_id 62ca20e4-b289-47fc-b175-4ce77178de82
+frame_number 16823
+uid ef820406-e4ce-4596-84a6-5abcde5b268e_0011189
+video_id ef820406-e4ce-4596-84a6-5abcde5b268e
+frame_number 11189
+gt_boxes [[  81.43   22.63 1920.92  477.6 ]]
+gt_noun_labels [85]
+gt_verb_labels [67]
+gt_boxes [[1284.15  804.23 1312.13  831.04]]
+gt_ttc_targets [0.93333333]
+gt_noun_labels [2]
+gt_verb_labels [62]
+gt_boxes [[813.51 240.11 976.45 333.68]]
+gt_ttc_targets [0.3]
+gt_noun_labels [44]
+gt_verb_labels [4]
+gt_ttc_targets [0.93333333]
+gt_boxes [[2.3000e+00 1.7309e+02 2.5623e+03 4.1900e+02]]
+gt_noun_labels [40]
+29896 where are in the video dataset
+28828 where are in the video dataset
+gt_verb_labels [21]
+uid ecb53665-3b24-416f-9a63-24030aed6f97_0012577
+video_id ecb53665-3b24-416f-9a63-24030aed6f97
+frame_number 12577
+gt_ttc_targets [0.6]
+uid 25d0feb6-f66f-499f-a6b0-0ceb9df56896_0084715
+video_id 25d0feb6-f66f-499f-a6b0-0ceb9df56896
+frame_number 84715
+39878 where are in the video dataset
+7192 where are in the video dataset
+gt_boxes [[1046.3   637.74 1107.35  711.85]]
+13930 where are in the video dataset
+140 where are in the video dataset
+gt_noun_labels [81]
+uid 1348c9f9-fc8b-40c7-b1ab-5b6281e5d390_0007322
+video_id 1348c9f9-fc8b-40c7-b1ab-5b6281e5d390
+frame_number 7322
+4458 where are in the video dataset
+uid a7bffd05-bb79-45cd-8bd1-8c30c5553ddf_0004746
+gt_verb_labels [38]
+video_id a7bffd05-bb79-45cd-8bd1-8c30c5553ddf
+frame_number 4746
+33874 where are in the video dataset
+gt_ttc_targets [0.83333333]
+uid 3b609b23-f91d-43da-9918-ce928181f53f_0005001
+video_id 3b609b23-f91d-43da-9918-ce928181f53f
+frame_number 5001
+uid 0fe191ef-c28a-422c-aede-46f8aa8532a6_0045688
+video_id 0fe191ef-c28a-422c-aede-46f8aa8532a6
+uid 1558e9f2-d7f3-4a23-9627-4240f506d7df_0012640
+frame_number 45688
+video_id 1558e9f2-d7f3-4a23-9627-4240f506d7df
+frame_number 12640
+uid e4ad6fd7-2e3e-4991-b392-a0056f702286_0073408
+video_id e4ad6fd7-2e3e-4991-b392-a0056f702286
+frame_number 73408
+gt_boxes [[ 825.15  849.49  954.9  1001.94]]
+gt_noun_labels [62]
+gt_verb_labels [62]
+gt_ttc_targets [0.6]
+gt_boxes [[1134.52  121.18 1164.11  163.75]]
+gt_boxes [[ 811.49  177.37 1025.39  331.95]]
+gt_noun_labels [53]
+gt_verb_labels [62]
+gt_noun_labels [9]
+gt_verb_labels [22]
+gt_ttc_targets [1.56666667]
+gt_boxes [[688.17 585.9  871.51 720.89]]
+gt_ttc_targets [0.1]
+gt_boxes [[1708.96  232.43 1973.69  655.2 ]]
+gt_boxes [[ 454.18  596.93  979.28 1080.07]]
+gt_boxes [[3.1000e-01 7.5830e+01 6.2286e+02 8.4071e+02]]
+gt_noun_labels [69]
+gt_verb_labels [4]
+gt_noun_labels [21]
+gt_noun_labels [9]
+gt_noun_labels [80]
+8096 where are in the video dataset
+gt_ttc_targets [0.6]
+gt_verb_labels [0]
+gt_verb_labels [11]
+gt_verb_labels [44]
+uid c431062e-857c-4e9f-ad5c-94f925acc822_0017254
+video_id c431062e-857c-4e9f-ad5c-94f925acc822
+frame_number 17254
+gt_ttc_targets [1.2]
+gt_ttc_targets [0.03333333]
+gt_ttc_targets [2.03333333]
+gt_boxes [[692.   814.1  802.43 934.44]]
+gt_noun_labels [70]
+gt_verb_labels [62]
+gt_ttc_targets [1.66666667]
+15975 where are in the video dataset
+uid f5778003-9aea-4ca0-9398-69299ba0331c_0004375
+video_id f5778003-9aea-4ca0-9398-69299ba0331c
+frame_number 4375
+gt_boxes [[ 955.89  435.08 1001.46  487.35]]
+gt_noun_labels [46]
+gt_verb_labels [62]
+gt_ttc_targets [0.33333333]
+17174 where are in the video dataset
+uid 6f9d83ec-bea0-4788-8079-ff409d7da830_0023301
+video_id 6f9d83ec-bea0-4788-8079-ff409d7da830
+frame_number 23301
+gt_boxes [[ 861.21  359.05 1084.02  613.08]]
+gt_noun_labels [14]
+gt_verb_labels [1]
+gt_ttc_targets [1.16666667]
+40813 where are in the video dataset
+uid 7d6d6cae-0601-485d-b900-482b4254e9f8_0008323
+video_id 7d6d6cae-0601-485d-b900-482b4254e9f8
+frame_number 8323
+gt_boxes [[581.98 516.88 601.06 536.79]]
+gt_noun_labels [122]
+gt_verb_labels [62]
+gt_ttc_targets [0.2]
+15632 where are in the video dataset
+uid 58a01f3a-52ce-4024-ab3c-b179caf4dafd_0039092
+video_id 58a01f3a-52ce-4024-ab3c-b179caf4dafd
+frame_number 39092
+gt_boxes [[ 6.3926e+02 -6.5000e-01  9.9296e+02  5.8029e+02]]
+gt_noun_labels [41]
+gt_verb_labels [0]
+gt_ttc_targets [0.1]
+30836 where are in the video dataset
+uid 4f11d6b8-1f78-4d99-9b34-7b89bc007b25_0001559
+video_id 4f11d6b8-1f78-4d99-9b34-7b89bc007b25
+frame_number 1559
+gt_boxes [[1213.05    0.   1472.03  246.02]]
+gt_noun_labels [14]
+gt_verb_labels [31]
+gt_ttc_targets [1.93333333]
+45320 where are in the video dataset
+uid a47718d6-30dc-4afa-8088-a62e1e81d3e6_0009002
+video_id a47718d6-30dc-4afa-8088-a62e1e81d3e6
+frame_number 9002
+1948 where are in the video dataset
+uid 8da5f5a1-ae5f-45e8-a7f7-3226547c3c4d_0020403
+video_id 8da5f5a1-ae5f-45e8-a7f7-3226547c3c4d
+frame_number 20403
+gt_boxes [[5.5317e+02 2.9000e-01 1.4407e+03 9.4337e+02]]
+gt_noun_labels [85]
+gt_verb_labels [44]
+gt_boxes [[539.01 200.77 916.49 517.71]]
+gt_ttc_targets [0.83333333]
+gt_noun_labels [72]
+gt_verb_labels [37]
+gt_ttc_targets [2.26666667]
+39387 where are in the video dataset
+uid 8e23dc43-7025-4548-a2bd-0f7d85631602_0009388
+video_id 8e23dc43-7025-4548-a2bd-0f7d85631602
+frame_number 9388
+gt_boxes [[ 2.00060e+02 -6.50000e-01  1.43930e+03  1.08106e+03]]
+gt_noun_labels [3]
+gt_verb_labels [4]
+gt_ttc_targets [0.7]
+18419 where are in the video dataset
+uid 3906d25a-d0a4-4a7c-8906-a87cea106c66_0041851
+video_id 3906d25a-d0a4-4a7c-8906-a87cea106c66
+frame_number 41851
+gt_boxes [[299.53   1.48 896.73 377.3 ]]
+gt_noun_labels [1]
+gt_verb_labels [0]
+gt_ttc_targets [1.63333333]
+43915 where are in the video dataset
+uid f5c456b2-b998-4f42-82bd-786833fb3891_0023728
+video_id f5c456b2-b998-4f42-82bd-786833fb3891
+frame_number 23728
+gt_boxes [[ 895.51  250.27 1919.68 1080.  ]]
+gt_noun_labels [17]
+gt_verb_labels [4]
+gt_ttc_targets [1.63333333]
+32239 where are in the video dataset
+uid 9957a25a-8ef1-4538-a51e-f8c5ab8c2bc4_0005652
+video_id 9957a25a-8ef1-4538-a51e-f8c5ab8c2bc4
+frame_number 5652
+gt_boxes [[-6.00000e-02  1.00000e-02  1.43995e+03  8.28320e+02]]
+gt_noun_labels [34]
+gt_verb_labels [22]
+gt_ttc_targets [1.1]
+30159 where are in the video dataset
+uid d6e25033-e0dd-47e0-8ef5-b0cb7ba56818_0043000
+video_id d6e25033-e0dd-47e0-8ef5-b0cb7ba56818
+frame_number 43000
+gt_boxes [[892.16 899.94 953.53 967.67]]
+gt_noun_labels [100]
+gt_verb_labels [62]
+gt_ttc_targets [0.1]
+40761 where are in the video dataset
+uid 7d6d6cae-0601-485d-b900-482b4254e9f8_0002148
+video_id 7d6d6cae-0601-485d-b900-482b4254e9f8
+frame_number 2148
+gt_boxes [[200.88 383.21 240.17 543.19]]
+gt_noun_labels [108]
+gt_verb_labels [44]
+gt_ttc_targets [1.73333333]
+26864 where are in the video dataset
+uid 3d3efb83-4b41-41e3-94db-50f0f22e67ef_0144494
+video_id 3d3efb83-4b41-41e3-94db-50f0f22e67ef
+frame_number 144494
+gt_boxes [[ 152.44  839.98  622.43 1078.88]
+ [ 161.85  789.4   619.55 1068.98]]
+gt_noun_labels [41  7]
+gt_verb_labels [62 21]
+gt_ttc_targets [0.6 0.6]
+2105 where are in the video dataset
+uid 40eeac41-9ec3-4960-b0b3-77074a6ad5b3_0006207
+video_id 40eeac41-9ec3-4960-b0b3-77074a6ad5b3
+frame_number 6207
+gt_boxes [[ 433.52  844.93  647.76 1064.72]]
+gt_noun_labels [10]
+gt_verb_labels [62]
+gt_ttc_targets [1.63333333]
+45646 where are in the video dataset
+uid 52d94d3d-5e0b-4bdb-9048-55dcf06b4f9d_0027138
+video_id 52d94d3d-5e0b-4bdb-9048-55dcf06b4f9d
+frame_number 27138
+gt_boxes [[623.52 330.66 904.2  523.01]]
+gt_noun_labels [53]
+gt_verb_labels [8]
+gt_ttc_targets [1.73333333]
+15918 where are in the video dataset
+uid 952f40df-b1d7-4562-afe4-2a4ff569e949_0083505
+video_id 952f40df-b1d7-4562-afe4-2a4ff569e949
+frame_number 83505
+gt_boxes [[ 1.10010e+03 -8.30000e-01  1.42969e+03  1.72660e+02]]
+gt_noun_labels [85]
+gt_verb_labels [62]
+gt_ttc_targets [0.63333333]
+23806 where are in the video dataset
+uid c00d3596-99db-4ea7-9a65-57ab4319d640_0033487
+video_id c00d3596-99db-4ea7-9a65-57ab4319d640
+frame_number 33487
+gt_boxes [[729.5  472.04 998.4  952.85]]
+gt_noun_labels [41]
+gt_verb_labels [33]
+gt_ttc_targets [0.66666667]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+  | Name  | Type      | Params
+------------------------------------
+0 | model | StillFast | 44.4 M
+------------------------------------
+44.2 M    Trainable params
+222 K     Non-trainable params
+44.4 M    Total params
+88.793    Total estimated model params size (MB)
+42368 where are in the video dataset
+uid d2de811c-9255-4c4f-8a54-a2fc65527f59_0028585
+video_id d2de811c-9255-4c4f-8a54-a2fc65527f59
+frame_number 28585
+gt_boxes [[317.66 475.43 441.13 634.38]]
+gt_noun_labels [18]
+gt_verb_labels [62]
+gt_ttc_targets [0.96666667]
+9013 where are in the video dataset
+uid 3534864b-2289-4aaf-b3ed-10eeeee7acd2_0076452
+video_id 3534864b-2289-4aaf-b3ed-10eeeee7acd2
+frame_number 76452
+gt_boxes [[ 829.37  485.74 1399.81 1034.34]]
+gt_noun_labels [21]
+gt_verb_labels [8]
+gt_ttc_targets [0.33333333]
+25869 where are in the video dataset
+uid 0b245a61-32d6-4b14-897c-724adad5b231_0017573
+video_id 0b245a61-32d6-4b14-897c-724adad5b231
+frame_number 17573
+gt_boxes [[ 1.30116e+03 -7.70000e-01  1.39724e+03  7.81080e+02]]
+gt_noun_labels [85]
+gt_verb_labels [33]
+gt_ttc_targets [1.23333333]
+2019 where are in the video dataset
+uid 8da5f5a1-ae5f-45e8-a7f7-3226547c3c4d_0024266
+video_id 8da5f5a1-ae5f-45e8-a7f7-3226547c3c4d
+frame_number 24266
+gt_boxes [[ 666.42  276.34 1071.14  612.89]]
+gt_noun_labels [72]
+gt_verb_labels [37]
+gt_ttc_targets [0.46666667]
+23139 where are in the video dataset
+uid 5f7e3f1e-f4db-461e-8344-c8f130985635_0124582
+video_id 5f7e3f1e-f4db-461e-8344-c8f130985635
+frame_number 124582
+gt_boxes [[ 820.04  569.53 1161.93  886.91]]
+gt_noun_labels [77]
+gt_verb_labels [62]
+gt_ttc_targets [1.83333333]
+23316 where are in the video dataset
+uid d1f59fb1-5f81-4bd4-b3f1-81d69ab71ef6_0011969
+video_id d1f59fb1-5f81-4bd4-b3f1-81d69ab71ef6
+frame_number 11969
+gt_boxes [[ 686.76  880.19  900.71 1078.43]]
+gt_noun_labels [84]
+gt_verb_labels [62]
+gt_ttc_targets [1.7]
+37648 where are in the video dataset
+uid 559ddb1f-f0c0-4d27-b2c2-ebabe103dc3b_0014083
+video_id 559ddb1f-f0c0-4d27-b2c2-ebabe103dc3b
+frame_number 14083
+gt_boxes [[541.87 698.96 969.76 999.27]]
+gt_noun_labels [85]
+gt_verb_labels [62]
+gt_ttc_targets [0.7]
+17526 where are in the video dataset
+uid 8c1b30cd-f67f-479a-b723-7367528ccb8e_0015251
+video_id 8c1b30cd-f67f-479a-b723-7367528ccb8e
+frame_number 15251
+gt_boxes [[785.59 302.13 885.07 398.86]]
+gt_noun_labels [49]
+gt_verb_labels [62]
+gt_ttc_targets [0.66666667]
+43342 where are in the video dataset
+uid 1c726086-c51a-421b-bb62-d1125db4bfe5_0036305
+video_id 1c726086-c51a-421b-bb62-d1125db4bfe5
+frame_number 36305
+gt_boxes [[ 583.72   -3.13 1438.8   866.9 ]]
+gt_noun_labels [53]
+gt_verb_labels [8]
+gt_ttc_targets [0.6]
+42826 where are in the video dataset
+uid 90a0c76e-f62f-4f49-888f-5478b6ccab5b_0009056
+video_id 90a0c76e-f62f-4f49-888f-5478b6ccab5b
+frame_number 9056
+gt_boxes [[640.58 590.5  858.13 832.23]]
+gt_noun_labels [38]
+gt_verb_labels [62]
+gt_ttc_targets [1.16666667]
+31549 where are in the video dataset
+uid 8f693e8a-5ea4-4b0f-93fd-787fe5f481df_0007611
+video_id 8f693e8a-5ea4-4b0f-93fd-787fe5f481df
+frame_number 7611
+gt_boxes [[ 535.5     3.51 1101.79 1121.25]]
+gt_noun_labels [85]
+gt_verb_labels [13]
+gt_ttc_targets [0.16666667]
+20577 where are in the video dataset
+uid 9fabfbc8-1d5c-495e-9bb2-03795f0145ae_0001784
+video_id 9fabfbc8-1d5c-495e-9bb2-03795f0145ae
+frame_number 1784
+gt_boxes [[ -6.21  -2.1  837.45 901.93]]
+gt_noun_labels [30]
+gt_verb_labels [34]
+gt_ttc_targets [1.73333333]
+36254 where are in the video dataset
+uid 95f5a981-f5e8-40b9-bcd5-734c0a6a82a5_0011231
+video_id 95f5a981-f5e8-40b9-bcd5-734c0a6a82a5
+frame_number 11231
+gt_boxes [[1095.73  155.51 1272.63  294.22]]
+gt_noun_labels [1]
+gt_verb_labels [62]
+gt_ttc_targets [2.93333333]
+30825 where are in the video dataset
+uid caaee1c0-27ea-4201-b071-4d74e5c48223_0011537
+video_id caaee1c0-27ea-4201-b071-4d74e5c48223
+frame_number 11537
+gt_boxes [[1922.72  746.44 1981.24  924.86]]
+gt_noun_labels [86]
+gt_verb_labels [62]
+gt_ttc_targets [0.53333333]
+46309 where are in the video dataset
+uid 5d331f41-ebc7-4eaa-8676-501a94a004d4_0006539
+video_id 5d331f41-ebc7-4eaa-8676-501a94a004d4
+frame_number 6539
+gt_boxes [[ 446.8  244.1  952.8 1081.1]]
+gt_noun_labels [1]
+gt_verb_labels [22]
+gt_ttc_targets [0.76666667]
+45938 where are in the video dataset
+uid 0c3db5fa-23e0-4311-ad4e-72a70ad29700_0010706
+video_id 0c3db5fa-23e0-4311-ad4e-72a70ad29700
+frame_number 10706
+gt_boxes [[2.10000e-01 5.97000e+00 2.37437e+03 1.13148e+03]]
+gt_noun_labels [13]
+gt_verb_labels [45]
+gt_ttc_targets [2.2]
+16426 where are in the video dataset
+uid 06456897-960d-4d0c-8ce2-cd50a5a57bc3_0034927
+video_id 06456897-960d-4d0c-8ce2-cd50a5a57bc3
+frame_number 34927
+gt_boxes [[428.12 258.69 861.83 719.93]]
+gt_noun_labels [53]
+gt_verb_labels [8]
+gt_ttc_targets [0.16666667]
+39070 where are in the video dataset
+uid 2e160c88-209f-4bb2-90d4-e7edf5664bce_0017416
+video_id 2e160c88-209f-4bb2-90d4-e7edf5664bce
+frame_number 17416
+gt_boxes [[433.42 699.51 676.57 912.26]]
+gt_noun_labels [34]
+gt_verb_labels [62]
+gt_ttc_targets [1.]
+21858 where are in the video dataset
+uid b940de2b-5fa2-4f37-badc-a42a39919a65_0004130
+video_id b940de2b-5fa2-4f37-badc-a42a39919a65
+frame_number 4130
+gt_boxes [[ 59.16  59.79 769.53 712.39]]
+gt_noun_labels [53]
+gt_verb_labels [62]
+gt_ttc_targets [0.16666667]
+35221 where are in the video dataset
+uid 826e419a-8788-484f-9543-550964666762_0061452
+video_id 826e419a-8788-484f-9543-550964666762
+frame_number 61452
+gt_boxes [[7.0593e+02 1.4800e+00 8.6593e+02 1.0815e+02]
+ [7.0535e+02 2.6000e-01 8.6360e+02 1.0345e+02]]
+gt_noun_labels [80 80]
+gt_verb_labels [62 44]
+gt_ttc_targets [1.16666667 1.16666667]
+42198 where are in the video dataset
+uid 99a60ee6-9f6a-40a6-aa73-db2138710552_0045404
+video_id 99a60ee6-9f6a-40a6-aa73-db2138710552
+frame_number 45404
+gt_boxes [[264.88 668.05 516.59 864.15]]
+gt_noun_labels [103]
+gt_verb_labels [66]
+gt_ttc_targets [1.06666667]
+7218 where are in the video dataset
+uid 1348c9f9-fc8b-40c7-b1ab-5b6281e5d390_0007974
+video_id 1348c9f9-fc8b-40c7-b1ab-5b6281e5d390
+frame_number 7974
+gt_boxes [[1.05192e+03 8.00000e-01 1.27846e+03 1.41040e+02]]
+gt_noun_labels [53]
+gt_verb_labels [9]
+gt_ttc_targets [0.03333333]
+41144 where are in the video dataset
+uid 5efa966b-01b6-4bbb-a4b6-702ef89c3a10_0009746
+video_id 5efa966b-01b6-4bbb-a4b6-702ef89c3a10
+frame_number 9746
+gt_boxes [[ 966.55  370.42 1226.33  702.36]]
+gt_noun_labels [34]
+gt_verb_labels [4]
+gt_ttc_targets [0.2]
+47034 where are in the video dataset
+uid 58192560-1819-4883-8f66-40bbf35c4767_0005433
+video_id 58192560-1819-4883-8f66-40bbf35c4767
+frame_number 5433
+34706 where are in the video dataset
+gt_boxes [[4.37630e+02 9.00000e-01 1.15936e+03 5.68310e+02]]
+uid fdcdf464-a350-452d-9741-f6725e138192_0013663
+video_id fdcdf464-a350-452d-9741-f6725e138192
+frame_number 13663
+gt_noun_labels [43]
+gt_verb_labels [39]
+gt_ttc_targets [2.]
+gt_boxes [[550.37 188.15 991.85 693.34]]
+gt_noun_labels [84]
+gt_verb_labels [3]
+gt_ttc_targets [1.13333333]
+31413 where are in the video dataset
+uid cce95cd8-188e-4d6b-996f-07f58fc9d117_0007450
+video_id cce95cd8-188e-4d6b-996f-07f58fc9d117
+frame_number 7450
+gt_boxes [[540.47 245.52 580.21 268.23]]
+gt_noun_labels [84]
+gt_verb_labels [9]
+gt_ttc_targets [1.8]
+12192 where are in the video dataset
+uid 31cbf7bb-d464-4ec3-bddd-c387766f8572_0005403
+video_id 31cbf7bb-d464-4ec3-bddd-c387766f8572
+frame_number 5403
+gt_boxes [[650.05 547.01 674.55 580.31]]
+gt_noun_labels [81]
+gt_verb_labels [62]
+gt_ttc_targets [0.06666667]
+37062 where are in the video dataset
+uid d5ac2685-a012-46fe-8bc9-5c21c07edb0a_0038577
+video_id d5ac2685-a012-46fe-8bc9-5c21c07edb0a
+frame_number 38577
+gt_boxes [[345.23 217.54 397.98 332.59]]
+gt_noun_labels [5]
+gt_verb_labels [62]
+gt_ttc_targets [2.3]
+25461 where are in the video dataset
+uid 884ac72b-4360-43cb-a62c-ee5822b07bf1_0074089
+video_id 884ac72b-4360-43cb-a62c-ee5822b07bf1
+frame_number 74089
+gt_boxes [[529.81 620.28 548.21 696.7 ]]
+gt_noun_labels [73]
+gt_verb_labels [62]
+gt_ttc_targets [0.13333333]
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 111, in advance
+    batch = next(data_fetcher)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 259, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 273, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+lmdb.Error: Caught Error in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 86, in __getitem__
+    still_img, fast_imgs = self._load_still_fast_frames(video_id, frame_number)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 68, in _load_still_fast_frames
+    video_id, frames_list
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 45, in _load_frames_lmdb
+    imgs = self._fast_hlmdb.get_batch(video_id, frames)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 24, in get_batch
+    with self._get_parent(video_id) as env:
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/sta_hlmdb.py", line 21, in _get_parent
+    return lmdb.open(str(self.path_to_root / parent), map_size=self.map_size, readonly=self.readonly, lock=self.lock)
+lmdb.Error: /ssd/furnari/sta_lmdb/6b91041f-bd60-4738-8305-46b144ce725d: No such file or directory
+Traceback (most recent call last):
+  File "main.py", line 264, in <module>
+    main(cfg)
+  File "main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in _call_and_handle_interrupt
+    return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+    return function(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 111, in advance
+    batch = next(data_fetcher)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 259, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 273, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+PIL.UnidentifiedImageError: Caught UnidentifiedImageError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 86, in __getitem__
+    still_img, fast_imgs = self._load_still_fast_frames(video_id, frame_number)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 68, in _load_still_fast_frames
+    video_id, frames_list
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 45, in _load_frames_lmdb
+    imgs = self._fast_hlmdb.get_batch(video_id, frames)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 29, in get_batch
+    out.append(Image.open(io.BytesIO(data)))
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/PIL/Image.py", line 3298, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f60cbf8ddd0>
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 111, in advance
+    batch = next(data_fetcher)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 259, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 273, in _fetch_next_batch
+    batch = next(iterator)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+PIL.UnidentifiedImageError: Caught UnidentifiedImageError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 86, in __getitem__
+    still_img, fast_imgs = self._load_still_fast_frames(video_id, frame_number)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 68, in _load_still_fast_frames
+    video_id, frames_list
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 45, in _load_frames_lmdb
+    imgs = self._fast_hlmdb.get_batch(video_id, frames)
+  File "/home/lmur/hum_obj_int/stillfast/stillfast/datasets/ego4d_sta_still_video.py", line 29, in get_batch
+    out.append(Image.open(io.BytesIO(data)))
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/PIL/Image.py", line 3298, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f4e57fb4fb0>
+Traceback (most recent call last):
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 264, in <module>
+    main(cfg)
+  File "/home/lmur/hum_obj_int/stillfast/main.py", line 85, in main
+    return trainer.fit(task)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 769, in fit
+    self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 111, in advance
+    batch = next(data_fetcher)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 184, in __next__
+    return self.fetching_function()
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 259, in fetching_function
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/lmur/miniconda3/envs/stillfast/lib/python3.7/site-packages/pytorch_lightning/utilities/fetching.py", line 273, in _fetch_next_batch
+    batch = next(iterator)
